@@ -1,0 +1,519 @@
+
+Skipping bids-validator...
+#### Running C-PAC for sub-0025428
+Number of participants to run in parallel: 1
+Input directory: /data
+Output directory: /outputs/output
+Working directory: /outputs/working
+Log directory: /outputs/log
+Remove working directory: False
+Available memory: 1.0 (GB)
+Available threads: 1
+Number of threads for ANTs: 1
+Parsing /data..
+Starting participant level processing
+Run called with config file /outputs/log/pipeline_default-pipeline-5mm/sub-0025428_ses-1/cpac_pipeline_config_13e9456a_2023-09-08T22-30-57Z.yml
+230908-22:31:03,710 nipype.workflow INFO:
+	 
+    Environment
+    ===========
+    ldd: (Ubuntu GLIBC 2.35-0ubuntu3.1) 2.35
+    Python: 3.10.6 | packaged by conda-forge | (main, Aug 22 2022, 20:36:39) [GCC 10.4.0]
+      Python packages
+      ---------------
+      anyio: 3.7.1
+      argon2-cffi: 21.3.0
+      argon2-cffi-bindings: 21.2.0
+      astor: 0.8.1
+      asttokens: 2.2.1
+      async-lru: 2.0.3
+      attrs: 23.1.0
+      awscli: 1.29.4
+      Babel: 2.12.1
+      backcall: 0.2.0
+      backports.functools-lru-cache: 1.6.5
+      beautifulsoup4: 4.12.2
+      bids-validator: 1.12.0
+      bleach: 6.0.0
+      boto3: 1.28.4
+      botocore: 1.31.4
+      Brotli: 1.0.9
+      brotlipy: 0.7.0
+      cached-property: 1.5.2
+      certifi: 2023.7.22
+      cffi: 1.15.1
+      charset-normalizer: 3.1.0
+      ci-info: 0.3.0
+      ciftify: 2.3.3
+      click: 8.1.5
+      click-aliases: 1.0.1
+      colorama: 0.4.4
+      comm: 0.1.3
+      conda: 23.1.0
+      conda-package-handling: 2.0.2
+      conda_package_streaming: 0.8.0
+      configparser: 5.3.0
+      contourpy: 1.1.0
+      CPAC: 1.8.6.dev0
+      cryptography: 41.0.1
+      cycler: 0.11.0
+      Cython: 3.0.0
+      debugpy: 1.6.7
+      decorator: 5.1.1
+      defusedxml: 0.7.1
+      dill: 0.3.6
+      docopt: 0.6.2
+      docutils: 0.15.2
+      entrypoints: 0.4
+      etelemetry: 0.3.0
+      exceptiongroup: 1.1.2
+      executing: 1.2.0
+      fastjsonschema: 2.17.1
+      file-tree: 1.2.1
+      file-tree-fsl: 0.2.1
+      filelock: 3.12.2
+      flit_core: 3.9.0
+      fonttools: 4.41.0
+      formulaic: 0.5.2
+      fsl-base: 2302.0
+      fsl-get-standard: 0.1.0
+      fsl-sub: 2.7.5
+      fsl-sub-plugin-sge: 1.5.2
+      fsl-sub-plugin-slurm: 1.4.4
+      fsleyes: 1.6.1
+      fsleyes-props: 1.10.0
+      fsleyes-widgets: 0.14.3
+      fslinstaller: 3.4.1
+      fslpy: 3.11.3
+      future: 0.18.3
+      ghalton: 0.6.1
+      h5py: 3.8.0
+      hlsvdpropy: 2.0.1
+      idna: 3.4
+      imageio: 2.31.1
+      importlib-metadata: 6.8.0
+      importlib-resources: 6.0.0
+      indexed-gzip: 1.7.1
+      INDI-Tools: 0.0.7
+      interface-meta: 1.3.0
+      ipykernel: 6.24.0
+      ipython: 8.14.0
+      isodate: 0.6.1
+      jedi: 0.18.2
+      Jinja2: 3.1.2
+      jmespath: 1.0.1
+      joblib: 1.2.0
+      json5: 0.9.14
+      jsonschema: 4.18.4
+      jsonschema-specifications: 2023.7.1
+      jupyter-events: 0.6.3
+      jupyter-lsp: 2.2.0
+      jupyter_client: 8.3.0
+      jupyter_core: 5.3.1
+      jupyter_server: 2.7.0
+      jupyter_server_terminals: 0.4.4
+      jupyterlab: 4.0.3
+      jupyterlab-pygments: 0.2.2
+      jupyterlab_server: 2.23.0
+      kiwisolver: 1.4.4
+      lazy_loader: 0.3
+      libmambapy: 1.4.2
+      lockfile: 0.12.2
+      looseversion: 1.3.0
+      lxml: 4.9.2
+      mamba: 1.4.2
+      markdown-it-py: 3.0.0
+      MarkupSafe: 2.1.3
+      matplotlib: 3.7.1
+      matplotlib-inline: 0.1.6
+      mdurl: 0.1.0
+      mistune: 3.0.0
+      munkres: 1.1.4
+      nbclient: 0.8.0
+      nbconvert: 7.7.2
+      nbformat: 5.9.1
+      nest-asyncio: 1.5.6
+      networkx: 3.1
+      nibabel: 5.1.0
+      nilearn: 0.10.0
+      nipype: 1.8.6
+      nitransforms: 23.0.1
+      niworkflows: 1.8.1
+      nose: 1.3.7
+      notebook: 7.0.0
+      notebook_shim: 0.2.3
+      num2words: 0.5.12
+      numpy: 1.25.1
+      overrides: 7.3.1
+      packaging: 23.1
+      pandas: 2.0.3
+      pandocfilters: 1.5.0
+      parse: 1.19.1
+      parso: 0.8.3
+      pathlib2: 2.3.7.post1
+      pathvalidate: 2.5.2
+      patsy: 0.5.3
+      pexpect: 4.8.0
+      pickleshare: 0.7.5
+      Pillow: 9.2.0
+      pip: 23.1.2
+      pkgutil_resolve_name: 1.3.10
+      platformdirs: 3.9.1
+      pluggy: 1.2.0
+      pooch: 1.7.0
+      progressbar2: 4.2.0
+      prometheus-client: 0.17.1
+      prompt-toolkit: 3.0.39
+      prov: 2.0.0
+      psutil: 5.9.5
+      ptyprocess: 0.7.0
+      pure-eval: 0.2.2
+      pyasn1: 0.4.8
+      PyBASC: 0.6.1
+      pybids: 0.15.6
+      pycosat: 0.6.4
+      pycparser: 2.21
+      pydicom: 2.4.1
+      pydot: 1.4.2
+      Pygments: 2.15.1
+      pygraphviz: 1.11
+      PyOpenGL: 3.1.6
+      pyOpenSSL: 23.2.0
+      pyparsing: 2.4.7
+      PyPEER: 1.1
+      PySocks: 1.7.1
+      python-dateutil: 2.8.2
+      python-json-logger: 2.0.7
+      python-utils: 3.7.0
+      pytz: 2023.3
+      PyWavelets: 1.4.1
+      PyYAML: 6.0
+      pyzmq: 25.1.0
+      rdflib: 6.3.2
+      referencing: 0.30.0
+      requests: 2.31.0
+      rfc3339-validator: 0.1.4
+      rfc3986-validator: 0.1.1
+      rich: 13.4.2
+      rpds-py: 0.9.2
+      rsa: 4.7.2
+      Rtree: 1.0.1
+      ruamel.yaml: 0.17.32
+      ruamel.yaml.clib: 0.2.7
+      s3transfer: 0.6.1
+      scikit-image: 0.21.0
+      scikit-learn: 1.2.2
+      scipy: 1.11.1
+      sdcflows: 2.4.0
+      seaborn: 0.12.2
+      Send2Trash: 1.8.2
+      setuptools: 68.0.0
+      simplejson: 3.19.1
+      six: 1.16.0
+      sniffio: 1.3.0
+      soupsieve: 2.3.2.post1
+      SQLAlchemy: 1.3.24
+      stack-data: 0.6.2
+      svgutils: 0.3.4
+      templateflow: 23.0.0
+      terminado: 0.17.1
+      threadpoolctl: 3.2.0
+      tifffile: 2023.7.18
+      tinycss2: 1.2.1
+      tomli: 2.0.1
+      toolz: 0.12.0
+      tornado: 6.3.2
+      tqdm: 4.65.0
+      traitlets: 5.9.0
+      traits: 6.3.2
+      transforms3d: 0.4.1
+      trimesh: 3.22.5
+      typing-utils: 0.1.0
+      typing_extensions: 4.7.1
+      tzdata: 2023.3
+      unicodedata2: 15.0.0
+      urllib3: 1.26.15
+      voluptuous: 0.13.1
+      wcwidth: 0.2.6
+      webencodings: 0.5.1
+      websocket-client: 1.6.1
+      wheel: 0.40.0
+      wire: 1.0.0
+      wrapt: 1.15.0
+      wxnatpy: 0.4.0
+      wxPython: 4.2.0
+      xarray: 2023.7.0
+      xnat: 0.5.1
+      zipp: 3.16.0
+      zstandard: 0.19.0
+
+    Run command: run /data /outputs participant --save_working_dir --skip_bids_validator --pipeline_file /pipeline_configs/default_lite.yml --participant_label sub-0025428
+
+    C-PAC version: 1.8.6.dev
+
+    Copyright (C) 2022  C-PAC Developers.
+    
+    This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+    and you are welcome to redistribute it under certain conditions. For
+    details, see https://fcp-indi.github.io/docs/nightly/license or the COPYING and
+    COPYING.LESSER files included in the source code.
+
+    Setting maximum number of cores per participant to 1
+    Setting number of participants at once to 1
+    Setting OMP_NUM_THREADS to 1
+    Setting MKL_NUM_THREADS to 1
+    Setting ANTS/ITK thread usage to 1
+    Maximum potential number of cores that might be used during this run: 1
+    Random seed: 77742777
+
+230908-22:31:05,743 nipype.workflow INFO:
+	 Connecting pipeline blocks:
+	 - anatomical_init
+	 - freesurfer_reconall
+	 - acpc_align_head
+	 - non_local_means
+	   - T1w
+	     - desc-preproc_T1w
+	       - desc-reorient_T1w
+	       - T1w
+	 - n4_bias_correction
+	 - freesurfer_abcd_preproc
+	 - brain_mask_afni
+	   - brain_mask_fsl
+	   - brain_mask_niworkflows_ants
+	   - brain_mask_unet
+	   - brain_mask_freesurfer_abcd
+	   - brain_mask_freesurfer
+	   - brain_mask_freesurfer_fsl_tight
+	   - brain_mask_freesurfer_fsl_loose
+	 - brain_extraction
+	 - brain_mask_T2
+	 - brain_extraction_T2
+	 - register_ANTs_anat_to_template
+	   - register_FSL_anat_to_template
+	 - overwrite_transform_anat_to_template
+	 - warp_wholeheadT1_to_template
+	 - warp_T1mask_to_template
+	 - correct_restore_brain_intensity_abcd
+	 - register_symmetric_ANTs_anat_to_template
+	   - register_symmetric_FSL_anat_to_template
+	 - tissue_seg_fsl_fast
+	   - tissue_seg_ants_prior
+	   - tissue_seg_freesurfer
+	 - tissue_seg_T1_template_based
+	 - warp_tissuemask_to_T1template
+	 - func_reorient
+	 - func_scaling
+	 - func_truncate
+	 - func_despike
+	 - func_slice_time
+	 - func_mean
+	 - get_motion_ref
+	 - func_motion_correct
+	 - motion_estimate_filter
+	 - bold_mask_afni
+	   - bold_mask_fsl
+	   - bold_mask_fsl_afni
+	   - bold_mask_anatomical_refined
+	   - bold_mask_anatomical_based
+	   - bold_mask_anatomical_resampled
+	   - bold_mask_ccs
+	 - bold_masking
+	 - calc_motion_stats
+	 - func_normalize
+	 - coregistration_prep_vol
+	   - coregistration_prep_mean
+	   - coregistration_prep_fmriprep
+	 - coregistration
+	 - register_ANTs_EPI_to_template
+	   - register_FSL_EPI_to_template
+	 - create_func_to_T1template_xfm
+	 - create_func_to_T1template_symmetric_xfm
+	 - ICA_AROMA_ANTsreg
+	 - ICA_AROMA_FSLreg
+	 - ICA_AROMA_ANTsEPIreg
+	 - ICA_AROMA_FSLEPIreg
+	 - erode_mask_T1w
+	 - erode_mask_CSF
+	 - erode_mask_GM
+	 - erode_mask_WM
+	 - erode_mask_bold
+	 - erode_mask_boldCSF
+	 - erode_mask_boldGM
+	 - erode_mask_boldWM
+	 - nuisance_regressors_generation_T1w
+	   - desc-preproc_bold
+	     - desc-preproc_bold
+	       - bold
+	 - nuisance_regression_native
+	   - desc-preproc_bold
+	     - desc-preproc_bold
+	       - bold
+	 - apply_phasediff_to_timeseries_separately
+	   - apply_blip_to_timeseries_separately
+	   - warp_timeseries_to_T1template
+	   - warp_timeseries_to_T1template_dcan_nhp
+	   - warp_timeseries_to_T1template_abcd
+	     - desc-preproc_bold
+	       - bold
+	   - single_step_resample_timeseries_to_T1template
+	 - warp_sbref_to_T1template
+	 - warp_bold_mask_to_T1template
+	 - warp_deriv_mask_to_T1template
+	 - func_despike_template
+	 - warp_bold_mask_to_EPItemplate
+	 - warp_deriv_mask_to_EPItemplate
+	 - surface_postproc
+	 - timeseries_extraction_AVG
+	 - spatial_regression
+	 - alff_falff
+	 - reho
+	 - smooth_func_vmhc
+	 - warp_timeseries_to_sym_template
+	 - vmhc
+	 - network_centrality
+	 - qc_snr_plot
+	 - qc_coregistration
+	 - qc_motion_plot
+	 - qc_fd_plot
+	 - qc_brain_extraction
+	 - qc_T1w_standard
+	 - qc_segmentation
+	 - qc_carpet_plot
+	 - qc_bold_registration
+	 
+230908-22:31:05,745 nipype.workflow INFO:
+	 Connecting anatomical_init...
+230908-22:31:05,748 nipype.workflow INFO:
+	 Connecting freesurfer_reconall...
+230908-22:31:05,750 nipype.workflow INFO:
+	 Connecting acpc_alignment_head...
+230908-22:31:05,751 nipype.workflow INFO:
+	 Connecting nlm_filtering...
+230908-22:31:05,753 nipype.workflow INFO:
+	 Connecting n4_bias_correction...
+230908-22:31:05,754 nipype.workflow INFO:
+	 Connecting freesurfer_abcd_preproc...
+230908-22:31:05,755 nipype.workflow INFO:
+	 Connecting brain_mask_afni...
+230908-22:31:05,756 nipype.workflow INFO:
+	 Connecting brain_mask_fsl...
+230908-22:31:05,757 nipype.workflow INFO:
+	 Connecting brain_mask_niworkflows_ants...
+230908-22:31:05,758 nipype.workflow INFO:
+	 Connecting brain_mask_unet...
+230908-22:31:05,759 nipype.workflow INFO:
+	 Connecting brain_mask_freesurfer_abcd...
+230908-22:31:05,760 nipype.workflow INFO:
+	 Connecting brain_mask_freesurfer...
+230908-22:31:05,760 nipype.workflow INFO:
+	 Connecting brain_mask_freesurfer_fsl_tight...
+230908-22:31:05,761 nipype.workflow INFO:
+	 Connecting brain_mask_freesurfer_fsl_loose...
+230908-22:31:05,767 nipype.workflow INFO:
+	 Connecting brain_extraction...
+230908-22:31:05,789 nipype.workflow INFO:
+	 Connecting brain_mask_T2...
+230908-22:31:05,791 nipype.workflow INFO:
+	 Connecting brain_extraction_T2...
+230908-22:31:05,793 nipype.workflow INFO:
+	 Connecting register_ANTs_anat_to_template...
+230908-22:31:05,793 nipype.workflow INFO:
+	 Connecting register_FSL_anat_to_template...
+230908-22:31:05,846 nipype.workflow INFO:
+	 Connecting overwrite_transform_anat_to_template...
+230908-22:31:05,848 nipype.workflow INFO:
+	 Connecting transform_whole_head_T1w_to_T1template...
+230908-22:31:05,860 nipype.workflow INFO:
+	 Connecting transform_T1mask_to_T1template...
+230908-22:31:05,872 nipype.workflow INFO:
+	 Connecting correct_restore_brain_intensity_abcd...
+230908-22:31:05,874 nipype.workflow INFO:
+	 Connecting register_symmetric_ANTs_anat_to_template...
+230908-22:31:05,875 nipype.workflow INFO:
+	 Connecting register_symmetric_FSL_anat_to_template...
+230908-22:31:05,930 nipype.workflow INFO:
+	 Connecting tissue_seg_fsl_fast...
+230908-22:31:05,931 nipype.workflow INFO:
+	 Connecting tissue_seg_ants_prior...
+230908-22:31:05,932 nipype.workflow INFO:
+	 Connecting tissue_seg_freesurfer...
+230908-22:31:05,997 nipype.workflow INFO:
+	 Connecting tissue_seg_T1_template_based...
+230908-22:31:05,999 nipype.workflow INFO:
+	 Connecting warp_tissuemask_to_T1template...
+230908-22:31:06,32 nipype.workflow INFO:
+	 Connecting func_reorient...
+230908-22:31:06,35 nipype.workflow INFO:
+	 Connecting func_scaling...
+230908-22:31:06,37 nipype.workflow INFO:
+	 Connecting func_truncate...
+230908-22:31:06,45 nipype.workflow INFO:
+	 Connecting func_despike...
+230908-22:31:06,47 nipype.workflow INFO:
+	 Connecting func_slice_time...
+230908-22:31:06,53 nipype.workflow INFO:
+	 Connecting func_mean...
+230908-22:31:06,57 nipype.workflow INFO:
+	 Connecting get_motion_ref...
+230908-22:31:06,63 nipype.workflow INFO:
+	 Connecting motion_correction...
+230908-22:31:06,88 nipype.workflow INFO:
+	 Connecting motion_estimate_filter...
+230908-22:31:06,90 nipype.workflow INFO:
+	 Connecting bold_mask_afni...
+230908-22:31:06,91 nipype.workflow INFO:
+	 Connecting bold_mask_fsl...
+230908-22:31:06,92 nipype.workflow INFO:
+	 Connecting bold_mask_fsl_afni...
+230908-22:31:06,93 nipype.workflow INFO:
+	 Connecting bold_mask_anatomical_refined...
+230908-22:31:06,93 nipype.workflow INFO:
+	 Connecting bold_mask_anatomical_based...
+230908-22:31:06,94 nipype.workflow INFO:
+	 Connecting bold_mask_anatomical_resampled...
+230908-22:31:06,95 nipype.workflow INFO:
+	 Connecting bold_mask_ccs...
+230908-22:31:06,97 nipype.workflow INFO:
+	 Connecting bold_masking...
+230908-22:31:06,98 nipype.workflow INFO:
+	 Connecting calc_motion_stats...
+230908-22:31:06,119 nipype.workflow INFO:
+	 Connecting calc_motion_stats...
+230908-22:31:06,121 nipype.workflow ERROR:
+	 Building workflow failed
+Traceback (most recent call last):
+  File "/code/CPAC/pipeline/cpac_pipeline.py", line 1474, in build_workflow
+    wf = connect_pipeline(wf, cfg, rpool, pipeline_blocks)
+  File "/code/CPAC/pipeline/cpac_pipeline.py", line 1109, in connect_pipeline
+    wf = nb.connect_block(wf, cfg, rpool)
+  File "/code/CPAC/pipeline/engine.py", line 1440, in connect_block
+    wf, outs = block_function(wf, cfg, strat_pool,
+  File "/code/CPAC/pipeline/nodeblock.py", line 61, in __call__
+    return self.func(wf, cfg, strat_pool, pipe_num, opt)
+  File "/code/CPAC/func_preproc/func_preproc.py", line 1326, in calc_motion_stats
+    node, out_file = strat_pool.get_data('space-bold_desc-brain_mask')
+  File "/code/CPAC/pipeline/engine.py", line 349, in get_data
+    elif quick_single or len(self.get(resource)) == 1:
+  File "/code/CPAC/pipeline/engine.py", line 328, in get
+    raise LookupError(info_msg)
+LookupError: When trying to connect node block 'calc_motion_stats' to workflow 'cpac_sub-0025428_ses-1' after node block 'bold_masking': 
+
+[!] C-PAC says: None of the listed resources are in the resource pool:
+
+  space-bold_desc-brain_mask
+
+Options:
+- You can enable a node block earlier in the pipeline which produces these resources. Check the 'outputs:' field in a node block's documentation.
+- You can directly provide this required data by pulling it from another BIDS directory using 'source_outputs_dir:' in the pipeline configuration, or by placing it directly in your C-PAC output directory.
+- If you have done these, and you still get this message, please let us know through any of our support channels at: https://fcp-indi.github.io/
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/code/CPAC/pipeline/cpac_pipeline.py", line 451, in run_workflow
+    workflow = build_workflow(
+  File "/code/CPAC/pipeline/cpac_pipeline.py", line 1478, in build_workflow
+    errorstrings.index('[!] C-PAC says: The listed resource is not '
+ValueError: '[!] C-PAC says: The listed resource is not in the resource pool:' is not in list
