@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/code/CPAC/pipeline/cpac_pipeline.py", line 575, in run_workflow
+    workflow_result = workflow.run(plugin=plugin, plugin_args=plugin_args)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/engine/workflows.py", line 638, in run
+    runner.run(execgraph, updatehash=updatehash, config=self.config)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/plugins/linear.py", line 82, in run
+    raise error from cause
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/plugins/linear.py", line 47, in run
+    node.run(updatehash=updatehash)
+  File "/code/CPAC/pipeline/nipype_pipeline_engine/engine.py", line 428, in run
+    return super().run(updatehash)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/engine/nodes.py", line 527, in run
+    result = self._run_interface(execute=True)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/engine/nodes.py", line 645, in _run_interface
+    return self._run_command(execute)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/engine/nodes.py", line 771, in _run_command
+    raise NodeExecutionError(msg)
+nipype.pipeline.engine.nodes.NodeExecutionError: Exception raised while executing Node resampled_T1w-brain-template.
+
+Traceback:
+	Traceback (most recent call last):
+	  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/interfaces/base/core.py", line 397, in run
+	    runtime = self._run_interface(runtime)
+	  File "/code/CPAC/utils/interfaces/function/function.py", line 216, in _run_interface
+	    out = function_handle(**args)
+	  File "/code/CPAC/utils/datasource.py", line 1014, in resolve_resolution
+	    resample.inputs.in_file = local_path
+	  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/interfaces/base/traits_extension.py", line 330, in validate
+	    value = super(File, self).validate(objekt, name, value, return_pathlike=True)
+	  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/interfaces/base/traits_extension.py", line 135, in validate
+	    self.error(objekt, name, str(value))
+	  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/traits/base_trait_handler.py", line 74, in error
+	    raise TraitError(
+	traits.trait_errors.TraitError: The 'in_file' trait of a ResampleInputSpec instance must be a pathlike object or string representing an existing file, but a value of '/reg-data/templates/MNI152_T1_5mm_brain.nii.gz' <class 'str'> was specified.
+
