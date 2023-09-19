@@ -1,0 +1,1206 @@
+
+Skipping bids-validator...
+#### Running C-PAC for sub-NDARAD481FXF
+Number of participants to run in parallel: 1
+Input directory: /data
+Output directory: /outputs/output
+Working directory: /outputs/working
+Log directory: /outputs/log
+Remove working directory: False
+Available memory: 1.0 (GB)
+Available threads: 1
+Number of threads for ANTs: 1
+Parsing /data..
+Did not receive any parameters for sub-NDARAD481FXF/anat/sub-NDARAD481FXF_T1w.nii.gz, is this a problem?
+Starting participant level processing
+Run called with config file /outputs/log/pipeline_default-5mm/sub-NDARAD481FXF_ses-1/cpac_pipeline_config_fab99b4d_2023-09-19T17-29-40Z.yml
+230919-17:29:45,404 nipype.workflow INFO:
+	 
+    Environment
+    ===========
+    ldd: (Ubuntu GLIBC 2.35-0ubuntu3.1) 2.35
+    Python: 3.10.6 | packaged by conda-forge | (main, Aug 22 2022, 20:36:39) [GCC 10.4.0]
+      Python packages
+      ---------------
+      anyio: 3.7.1
+      argon2-cffi: 21.3.0
+      argon2-cffi-bindings: 21.2.0
+      astor: 0.8.1
+      asttokens: 2.2.1
+      async-lru: 2.0.3
+      attrs: 23.1.0
+      awscli: 1.29.4
+      Babel: 2.12.1
+      backcall: 0.2.0
+      backports.functools-lru-cache: 1.6.5
+      beautifulsoup4: 4.12.2
+      bids-validator: 1.12.0
+      bleach: 6.0.0
+      boto3: 1.28.4
+      botocore: 1.31.4
+      Brotli: 1.0.9
+      brotlipy: 0.7.0
+      cached-property: 1.5.2
+      certifi: 2023.7.22
+      cffi: 1.15.1
+      charset-normalizer: 3.1.0
+      ci-info: 0.3.0
+      ciftify: 2.3.3
+      click: 8.1.5
+      click-aliases: 1.0.1
+      colorama: 0.4.4
+      comm: 0.1.3
+      conda: 23.1.0
+      conda-package-handling: 2.0.2
+      conda_package_streaming: 0.8.0
+      configparser: 5.3.0
+      contourpy: 1.1.0
+      CPAC: 1.8.6.dev0
+      cryptography: 41.0.1
+      cycler: 0.11.0
+      Cython: 3.0.2
+      debugpy: 1.6.7
+      decorator: 5.1.1
+      defusedxml: 0.7.1
+      dill: 0.3.6
+      docopt: 0.6.2
+      docutils: 0.15.2
+      entrypoints: 0.4
+      etelemetry: 0.3.0
+      exceptiongroup: 1.1.2
+      executing: 1.2.0
+      fastjsonschema: 2.17.1
+      file-tree: 1.2.1
+      file-tree-fsl: 0.2.1
+      filelock: 3.12.2
+      flit_core: 3.9.0
+      flowdump: 0.1.2
+      fonttools: 4.41.0
+      formulaic: 0.5.2
+      fsl-base: 2302.0
+      fsl-get-standard: 0.1.0
+      fsl-sub: 2.7.5
+      fsl-sub-plugin-sge: 1.5.2
+      fsl-sub-plugin-slurm: 1.4.4
+      fsleyes: 1.6.1
+      fsleyes-props: 1.10.0
+      fsleyes-widgets: 0.14.3
+      fslinstaller: 3.4.1
+      fslpy: 3.11.3
+      future: 0.18.3
+      ghalton: 0.6.1
+      h5py: 3.8.0
+      hlsvdpropy: 2.0.1
+      idna: 3.4
+      imageio: 2.31.1
+      importlib-metadata: 6.8.0
+      importlib-resources: 6.0.0
+      indexed-gzip: 1.7.1
+      INDI-Tools: 0.0.7
+      interface-meta: 1.3.0
+      ipykernel: 6.24.0
+      ipython: 8.14.0
+      isodate: 0.6.1
+      jedi: 0.18.2
+      Jinja2: 3.1.2
+      jmespath: 1.0.1
+      joblib: 1.2.0
+      json5: 0.9.14
+      jsonschema: 4.18.4
+      jsonschema-specifications: 2023.7.1
+      jupyter-events: 0.6.3
+      jupyter-lsp: 2.2.0
+      jupyter_client: 8.3.0
+      jupyter_core: 5.3.1
+      jupyter_server: 2.7.0
+      jupyter_server_terminals: 0.4.4
+      jupyterlab: 4.0.3
+      jupyterlab-pygments: 0.2.2
+      jupyterlab_server: 2.23.0
+      kiwisolver: 1.4.4
+      lazy_loader: 0.3
+      libmambapy: 1.4.2
+      lockfile: 0.12.2
+      looseversion: 1.3.0
+      lxml: 4.9.2
+      mamba: 1.4.2
+      markdown-it-py: 3.0.0
+      MarkupSafe: 2.1.3
+      matplotlib: 3.7.1
+      matplotlib-inline: 0.1.6
+      mdurl: 0.1.0
+      mistune: 3.0.0
+      munkres: 1.1.4
+      nbclient: 0.8.0
+      nbconvert: 7.7.2
+      nbformat: 5.9.1
+      nest-asyncio: 1.5.6
+      networkx: 3.1
+      nibabel: 5.1.0
+      nilearn: 0.10.0
+      nipype: 1.8.6
+      nitransforms: 23.0.1
+      niworkflows: 1.8.1
+      nose: 1.3.7
+      notebook: 7.0.0
+      notebook_shim: 0.2.3
+      num2words: 0.5.12
+      numpy: 1.25.1
+      overrides: 7.3.1
+      packaging: 23.1
+      pandas: 2.0.3
+      pandocfilters: 1.5.0
+      parse: 1.19.1
+      parso: 0.8.3
+      pathlib2: 2.3.7.post1
+      pathvalidate: 2.5.2
+      patsy: 0.5.3
+      pexpect: 4.8.0
+      pickleshare: 0.7.5
+      Pillow: 9.2.0
+      pip: 23.1.2
+      pkgutil_resolve_name: 1.3.10
+      platformdirs: 3.9.1
+      pluggy: 1.2.0
+      pooch: 1.7.0
+      progressbar2: 4.2.0
+      prometheus-client: 0.17.1
+      prompt-toolkit: 3.0.39
+      prov: 2.0.0
+      psutil: 5.9.5
+      ptyprocess: 0.7.0
+      pure-eval: 0.2.2
+      pyasn1: 0.4.8
+      PyBASC: 0.6.1
+      pybids: 0.15.6
+      pycosat: 0.6.4
+      pycparser: 2.21
+      pydicom: 2.4.1
+      pydot: 1.4.2
+      Pygments: 2.15.1
+      pygraphviz: 1.11
+      PyOpenGL: 3.1.6
+      pyOpenSSL: 23.2.0
+      pyparsing: 2.4.7
+      PyPEER: 1.1
+      PySocks: 1.7.1
+      python-dateutil: 2.8.2
+      python-json-logger: 2.0.7
+      python-utils: 3.7.0
+      pytz: 2023.3
+      PyWavelets: 1.4.1
+      PyYAML: 6.0
+      pyzmq: 25.1.0
+      rdflib: 6.3.2
+      referencing: 0.30.0
+      requests: 2.31.0
+      rfc3339-validator: 0.1.4
+      rfc3986-validator: 0.1.1
+      rich: 13.4.2
+      rpds-py: 0.9.2
+      rsa: 4.7.2
+      Rtree: 1.0.1
+      ruamel.yaml: 0.17.32
+      ruamel.yaml.clib: 0.2.7
+      s3transfer: 0.6.1
+      scikit-image: 0.21.0
+      scikit-learn: 1.2.2
+      scipy: 1.11.1
+      sdcflows: 2.4.0
+      seaborn: 0.12.2
+      Send2Trash: 1.8.2
+      setuptools: 68.0.0
+      simplejson: 3.19.1
+      six: 1.16.0
+      sniffio: 1.3.0
+      soupsieve: 2.3.2.post1
+      SQLAlchemy: 1.3.24
+      stack-data: 0.6.2
+      svgutils: 0.3.4
+      templateflow: 23.0.0
+      terminado: 0.17.1
+      threadpoolctl: 3.2.0
+      tifffile: 2023.7.18
+      tinycss2: 1.2.1
+      tomli: 2.0.1
+      toolz: 0.12.0
+      tornado: 6.3.2
+      tqdm: 4.65.0
+      traitlets: 5.9.0
+      traits: 6.3.2
+      transforms3d: 0.4.1
+      trimesh: 3.22.5
+      typing-utils: 0.1.0
+      typing_extensions: 4.7.1
+      tzdata: 2023.3
+      unicodedata2: 15.0.0
+      urllib3: 1.26.15
+      voluptuous: 0.13.1
+      wcwidth: 0.2.6
+      webencodings: 0.5.1
+      websocket-client: 1.6.1
+      wheel: 0.40.0
+      wire: 1.0.0
+      wrapt: 1.15.0
+      wxnatpy: 0.4.0
+      wxPython: 4.2.0
+      xarray: 2023.7.0
+      xnat: 0.5.1
+      xvfbwrapper: 0.2.9
+      zipp: 3.16.0
+      zstandard: 0.19.0
+
+    Run command: run /data /outputs participant --save_working_dir --skip_bids_validator --pipeline_file /pipeline_configs/default-5mm.yml --participant_label sub-NDARAD481FXF
+
+    C-PAC version: 1.8.6.dev
+
+    Copyright (C) 2022  C-PAC Developers.
+    
+    This program comes with ABSOLUTELY NO WARRANTY. This is free software,
+    and you are welcome to redistribute it under certain conditions. For
+    details, see https://fcp-indi.github.io/docs/nightly/license or the COPYING and
+    COPYING.LESSER files included in the source code.
+
+    Setting maximum number of cores per participant to 1
+    Setting number of participants at once to 1
+    Setting OMP_NUM_THREADS to 1
+    Setting MKL_NUM_THREADS to 1
+    Setting ANTS/ITK thread usage to 1
+    Maximum potential number of cores that might be used during this run: 1
+    Random seed: 77742777
+
+230919-17:29:47,343 nipype.workflow INFO:
+	 Connecting pipeline blocks:
+	 - anatomical_init
+	 - freesurfer_reconall
+	 - acpc_align_head
+	 - non_local_means
+	   - T1w
+	     - desc-preproc_T1w
+	       - desc-reorient_T1w
+	       - T1w
+	 - n4_bias_correction
+	 - freesurfer_abcd_preproc
+	 - brain_mask_afni
+	   - brain_mask_fsl
+	   - brain_mask_niworkflows_ants
+	   - brain_mask_unet
+	   - brain_mask_freesurfer_abcd
+	   - brain_mask_freesurfer
+	   - brain_mask_freesurfer_fsl_tight
+	   - brain_mask_freesurfer_fsl_loose
+	 - brain_extraction
+	 - brain_mask_T2
+	 - brain_extraction_T2
+	 - register_ANTs_anat_to_template
+	   - register_FSL_anat_to_template
+	 - overwrite_transform_anat_to_template
+	 - warp_wholeheadT1_to_template
+	 - warp_T1mask_to_template
+	 - correct_restore_brain_intensity_abcd
+	 - register_symmetric_ANTs_anat_to_template
+	   - register_symmetric_FSL_anat_to_template
+	 - tissue_seg_fsl_fast
+	   - tissue_seg_ants_prior
+	   - tissue_seg_freesurfer
+	 - tissue_seg_T1_template_based
+	 - warp_tissuemask_to_T1template
+	 - func_reorient
+	 - func_scaling
+	 - func_truncate
+	 - func_despike
+	 - func_slice_time
+	 - func_mean
+	 - get_motion_ref
+	 - func_motion_correct
+	 - motion_estimate_filter
+	 - bold_mask_afni
+	   - bold_mask_fsl
+	   - bold_mask_fsl_afni
+	   - bold_mask_anatomical_refined
+	   - bold_mask_anatomical_based
+	   - bold_mask_anatomical_resampled
+	   - bold_mask_ccs
+	 - bold_masking
+	 - calc_motion_stats
+	 - func_normalize
+	 - coregistration_prep_vol
+	   - coregistration_prep_mean
+	   - coregistration_prep_fmriprep
+	 - distcor_phasediff_fsl_fugue
+	 - coregistration
+	 - register_ANTs_EPI_to_template
+	   - register_FSL_EPI_to_template
+	 - create_func_to_T1template_xfm
+	 - create_func_to_T1template_symmetric_xfm
+	 - ICA_AROMA_ANTsreg
+	 - ICA_AROMA_FSLreg
+	 - ICA_AROMA_ANTsEPIreg
+	 - ICA_AROMA_FSLEPIreg
+	 - erode_mask_T1w
+	 - erode_mask_CSF
+	 - erode_mask_GM
+	 - erode_mask_WM
+	 - erode_mask_bold
+	 - erode_mask_boldCSF
+	 - erode_mask_boldGM
+	 - erode_mask_boldWM
+	 - nuisance_regressors_generation_T1w
+	   - desc-preproc_bold
+	     - desc-preproc_bold
+	       - bold
+	 - nuisance_regression_native
+	   - desc-preproc_bold
+	     - desc-preproc_bold
+	       - bold
+	 - apply_phasediff_to_timeseries_separately
+	   - apply_blip_to_timeseries_separately
+	   - warp_timeseries_to_T1template
+	   - warp_timeseries_to_T1template_dcan_nhp
+	   - warp_timeseries_to_T1template_abcd
+	     - desc-preproc_bold
+	       - bold
+	   - single_step_resample_timeseries_to_T1template
+	 - warp_sbref_to_T1template
+	 - warp_bold_mask_to_T1template
+	 - warp_deriv_mask_to_T1template
+	 - func_despike_template
+	 - warp_bold_mask_to_EPItemplate
+	 - warp_deriv_mask_to_EPItemplate
+	 - surface_postproc
+	 - timeseries_extraction_AVG
+	 - spatial_regression
+	 - alff_falff
+	 - reho
+	 - smooth_func_vmhc
+	 - warp_timeseries_to_sym_template
+	 - vmhc
+	 - network_centrality
+	 - qc_snr_plot
+	 - qc_coregistration
+	 - qc_motion_plot
+	 - qc_fd_plot
+	 - qc_brain_extraction
+	 - qc_T1w_standard
+	 - qc_segmentation
+	 - qc_carpet_plot
+	 - qc_bold_registration
+	 
+230919-17:29:47,344 nipype.workflow INFO:
+	 Connecting anatomical_init...
+230919-17:29:47,345 nipype.workflow DEBUG:
+	 "inputs": ['T1w']
+	 "outputs": ['desc-preproc_T1w', 'desc-reorient_T1w', 'desc-head_T1w']
+	"options": ['desc-preproc_T1w', 'desc-reorient_T1w', 'desc-head_T1w']
+230919-17:29:47,350 nipype.workflow INFO:
+	 Connecting freesurfer_reconall...
+230919-17:29:47,351 nipype.workflow DEBUG:
+	 "inputs": [['desc-ABCDpreproc_T1w', 'desc-preproc_T1w']]
+	 "outputs": ['freesurfer-subject-dir', 'pipeline-fs_raw-average', 'pipeline-fs_subcortical-seg', 'pipeline-fs_brainmask', 'pipeline-fs_wmparc', 'pipeline-fs_T1', 'desc-restore_T1w', 'desc-restore-brain_T1w', 'desc-ABCDpreproc_T1w', 'pipeline-fs_desc-fast_biasfield', 'pipeline-fs_hemi-L_desc-surface_curv', 'pipeline-fs_hemi-R_desc-surface_curv', 'pipeline-fs_hemi-L_desc-surfaceMesh_pial', 'pipeline-fs_hemi-R_desc-surfaceMesh_pial', 'pipeline-fs_hemi-L_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-R_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-L_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-R_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-L_desc-surfaceMap_sulc', 'pipeline-fs_hemi-R_desc-surfaceMap_sulc', 'pipeline-fs_hemi-L_desc-surfaceMap_thickness', 'pipeline-fs_hemi-R_desc-surfaceMap_thickness', 'pipeline-fs_hemi-L_desc-surfaceMap_volume', 'pipeline-fs_hemi-R_desc-surfaceMap_volume', 'pipeline-fs_hemi-L_desc-surfaceMesh_white', 'pipeline-fs_hemi-R_desc-surfaceMesh_white']
+	"options": ['freesurfer-subject-dir', 'pipeline-fs_raw-average', 'pipeline-fs_subcortical-seg', 'pipeline-fs_brainmask', 'pipeline-fs_wmparc', 'pipeline-fs_T1', 'desc-restore_T1w', 'desc-restore-brain_T1w', 'desc-ABCDpreproc_T1w', 'pipeline-fs_desc-fast_biasfield', 'pipeline-fs_hemi-L_desc-surface_curv', 'pipeline-fs_hemi-R_desc-surface_curv', 'pipeline-fs_hemi-L_desc-surfaceMesh_pial', 'pipeline-fs_hemi-R_desc-surfaceMesh_pial', 'pipeline-fs_hemi-L_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-R_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-L_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-R_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-L_desc-surfaceMap_sulc', 'pipeline-fs_hemi-R_desc-surfaceMap_sulc', 'pipeline-fs_hemi-L_desc-surfaceMap_thickness', 'pipeline-fs_hemi-R_desc-surfaceMap_thickness', 'pipeline-fs_hemi-L_desc-surfaceMap_volume', 'pipeline-fs_hemi-R_desc-surfaceMap_volume', 'pipeline-fs_hemi-L_desc-surfaceMesh_white', 'pipeline-fs_hemi-R_desc-surfaceMesh_white', 'pipeline-fs_wmparc', 'freesurfer-subject-dir']
+230919-17:29:47,352 nipype.workflow INFO:
+	 Connecting acpc_alignment_head...
+230919-17:29:47,353 nipype.workflow DEBUG:
+	 "inputs": ['desc-head_T1w', 'desc-preproc_T1w', 'T1w-ACPC-template']
+	 "outputs": ['desc-head_T1w', 'desc-preproc_T1w', 'from-T1w_to-ACPC_mode-image_desc-aff2rig_xfm']
+	"options": ['desc-head_T1w', 'desc-preproc_T1w', 'from-T1w_to-ACPC_mode-image_desc-aff2rig_xfm']
+230919-17:29:47,354 nipype.workflow INFO:
+	 Connecting nlm_filtering...
+230919-17:29:47,355 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_T1w']
+	 "outputs": ['desc-preproc_T1w']
+	"options": ['desc-preproc_T1w']
+230919-17:29:47,357 nipype.workflow INFO:
+	 Connecting n4_bias_correction...
+230919-17:29:47,358 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_T1w']
+	 "outputs": ['desc-preproc_T1w', 'desc-n4_T1w']
+	"options": {'desc-preproc_T1w': {'Description': 'T1w image that has been N4-bias-field corrected using ANTs N4BiasFieldCorrection.'}, 'desc-n4_T1w': {'Description': 'T1w image that has been N4-bias-field corrected using ANTs N4BiasFieldCorrection.'}}
+230919-17:29:47,359 nipype.workflow INFO:
+	 Connecting freesurfer_abcd_preproc...
+230919-17:29:47,360 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_T1w', 'T1w-template', 'T1w-brain-template-mask', 'template-ref-mask-res-2', 'T1w-template-res-2', 'freesurfer-subject-dir']
+	 "outputs": ['desc-restore_T1w', 'desc-restore-brain_T1w', 'desc-ABCDpreproc_T1w', 'pipeline-fs_desc-fast_biasfield', 'pipeline-fs_hemi-L_desc-surface_curv', 'pipeline-fs_hemi-R_desc-surface_curv', 'pipeline-fs_hemi-L_desc-surfaceMesh_pial', 'pipeline-fs_hemi-R_desc-surfaceMesh_pial', 'pipeline-fs_hemi-L_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-R_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-L_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-R_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-L_desc-surfaceMap_sulc', 'pipeline-fs_hemi-R_desc-surfaceMap_sulc', 'pipeline-fs_hemi-L_desc-surfaceMap_thickness', 'pipeline-fs_hemi-R_desc-surfaceMap_thickness', 'pipeline-fs_hemi-L_desc-surfaceMap_volume', 'pipeline-fs_hemi-R_desc-surfaceMap_volume', 'pipeline-fs_hemi-L_desc-surfaceMesh_white', 'pipeline-fs_hemi-R_desc-surfaceMesh_white', 'pipeline-fs_wmparc', 'freesurfer-subject-dir']
+	"options": ['desc-restore_T1w', 'desc-restore-brain_T1w', 'desc-ABCDpreproc_T1w', 'pipeline-fs_desc-fast_biasfield', 'pipeline-fs_hemi-L_desc-surface_curv', 'pipeline-fs_hemi-R_desc-surface_curv', 'pipeline-fs_hemi-L_desc-surfaceMesh_pial', 'pipeline-fs_hemi-R_desc-surfaceMesh_pial', 'pipeline-fs_hemi-L_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-R_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-L_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-R_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-L_desc-surfaceMap_sulc', 'pipeline-fs_hemi-R_desc-surfaceMap_sulc', 'pipeline-fs_hemi-L_desc-surfaceMap_thickness', 'pipeline-fs_hemi-R_desc-surfaceMap_thickness', 'pipeline-fs_hemi-L_desc-surfaceMap_volume', 'pipeline-fs_hemi-R_desc-surfaceMap_volume', 'pipeline-fs_hemi-L_desc-surfaceMesh_white', 'pipeline-fs_hemi-R_desc-surfaceMesh_white', 'pipeline-fs_wmparc', 'freesurfer-subject-dir']
+230919-17:29:47,361 nipype.workflow INFO:
+	 Connecting brain_mask_afni...
+230919-17:29:47,361 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_T1w']
+	 "outputs": ['space-T1w_desc-brain_mask']
+	"options": ['space-T1w_desc-brain_mask']
+230919-17:29:47,362 nipype.workflow INFO:
+	 Connecting brain_mask_fsl...
+230919-17:29:47,363 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_T1w']
+	 "outputs": ['space-T1w_desc-brain_mask']
+	"options": ['space-T1w_desc-brain_mask']
+230919-17:29:47,364 nipype.workflow INFO:
+	 Connecting brain_mask_niworkflows_ants...
+230919-17:29:47,364 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_T1w']
+	 "outputs": ['space-T1w_desc-brain_mask', 'desc-preproc_T1w']
+	"options": ['space-T1w_desc-brain_mask', 'desc-preproc_T1w']
+230919-17:29:47,365 nipype.workflow INFO:
+	 Connecting brain_mask_unet...
+230919-17:29:47,366 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_T1w', 'T1w-brain-template', 'T1w-template', 'unet-model']
+	 "outputs": ['space-T1w_desc-brain_mask']
+	"options": ['space-T1w_desc-brain_mask']
+230919-17:29:47,367 nipype.workflow INFO:
+	 Connecting brain_mask_freesurfer_abcd...
+230919-17:29:47,368 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_T1w', 'pipeline-fs_wmparc', 'pipeline-fs_raw-average', 'pipeline-fs_xfm', 'freesurfer-subject-dir']
+	 "outputs": ['space-T1w_desc-brain_mask']
+	"options": ['space-T1w_desc-brain_mask']
+230919-17:29:47,369 nipype.workflow INFO:
+	 Connecting brain_mask_freesurfer...
+230919-17:29:47,370 nipype.workflow DEBUG:
+	 "inputs": ['pipeline-fs_raw-average', 'pipeline-fs_brainmask', 'freesurfer-subject-dir']
+	 "outputs": ['space-T1w_desc-brain_mask']
+	"options": ['space-T1w_desc-brain_mask']
+230919-17:29:47,371 nipype.workflow INFO:
+	 Connecting brain_mask_freesurfer_fsl_tight...
+230919-17:29:47,371 nipype.workflow DEBUG:
+	 "inputs": ['pipeline-fs_brainmask', 'pipeline-fs_T1', 'pipeline-fs_raw-average', 'freesurfer-subject-dir', 'T1w-brain-template-mask-ccs', 'T1w-ACPC-template']
+	 "outputs": ['space-T1w_desc-tight_brain_mask']
+	"options": ['space-T1w_desc-tight_brain_mask']
+230919-17:29:47,372 nipype.workflow INFO:
+	 Connecting brain_mask_freesurfer_fsl_loose...
+230919-17:29:47,373 nipype.workflow DEBUG:
+	 "inputs": ['pipeline-fs_brainmask', 'pipeline-fs_T1', 'pipeline-fs_raw-average', 'freesurfer-subject-dir', 'T1w-brain-template-mask-ccs', 'T1w-ACPC-template']
+	 "outputs": ['space-T1w_desc-loose_brain_mask']
+	"options": ['space-T1w_desc-loose_brain_mask']
+230919-17:29:47,382 nipype.workflow INFO:
+	 Connecting brain_extraction...
+230919-17:29:47,383 nipype.workflow DEBUG:
+	 "inputs": [('desc-head_T1w', 'desc-preproc_T1w', ['space-T1w_desc-brain_mask', 'space-T1w_desc-acpcbrain_mask'])]
+	 "outputs": ['desc-preproc_T1w', 'desc-brain_T1w', 'desc-head_T1w']
+	"options": {'desc-preproc_T1w': {'SkullStripped': 'True'}, 'desc-brain_T1w': {'SkullStripped': 'True'}, 'desc-head_T1w': {'SkullStripped': 'False'}}
+230919-17:29:47,409 nipype.workflow INFO:
+	 Connecting brain_mask_T2...
+230919-17:29:47,410 nipype.workflow DEBUG:
+	 "inputs": [(['desc-reorient_T1w', 'T1w', 'desc-preproc_T1w'], ['desc-reorient_T2w', 'T2w', 'desc-preproc_T2w'], ['space-T1w_desc-brain_mask', 'space-T1w_desc-acpcbrain_mask'], 'space-T2w_desc-acpcbrain_mask')]
+	 "outputs": ['space-T2w_desc-brain_mask']
+	"options": ['space-T2w_desc-brain_mask']
+230919-17:29:47,411 nipype.workflow INFO:
+	 Connecting brain_extraction_T2...
+230919-17:29:47,411 nipype.workflow DEBUG:
+	 "inputs": [('desc-acpcbrain_T2w', 'desc-preproc_T2w', ['space-T2w_desc-brain_mask', 'space-T2w_desc-acpcbrain_mask'])]
+	 "outputs": ['desc-brain_T2w']
+	"options": ['desc-brain_T2w']
+230919-17:29:47,412 nipype.workflow INFO:
+	 Connecting register_ANTs_anat_to_template...
+230919-17:29:47,413 nipype.workflow DEBUG:
+	 "inputs": [(['desc-preproc_T1w', 'space-longitudinal_desc-brain_T1w'], ['space-T1w_desc-brain_mask', 'space-longitudinal_desc-brain_mask', 'space-T1w_desc-acpcbrain_mask'], ['desc-restore_T1w', 'desc-head_T1w', 'desc-preproc_T1w', 'space-longitudinal_desc-reorient_T1w'], 'space-template_desc-head_T1w', 'space-template_desc-preproc_T1w'), 'T1w-template', 'T1w-brain-template', 'T1w-brain-template-mask', 'label-lesion_mask']
+	 "outputs": ['space-template_desc-preproc_T1w', 'from-T1w_to-template_mode-image_desc-linear_xfm', 'from-template_to-T1w_mode-image_desc-linear_xfm', 'from-T1w_to-template_mode-image_desc-nonlinear_xfm', 'from-template_to-T1w_mode-image_desc-nonlinear_xfm', 'from-T1w_to-template_mode-image_xfm', 'from-template_to-T1w_mode-image_xfm', 'from-longitudinal_to-template_mode-image_desc-linear_xfm', 'from-template_to-longitudinal_mode-image_desc-linear_xfm', 'from-longitudinal_to-template_mode-image_desc-nonlinear_xfm', 'from-template_to-longitudinal_mode-image_desc-nonlinear_xfm', 'from-longitudinal_to-template_mode-image_xfm', 'from-template_to-longitudinal_mode-image_xfm']
+	"options": {'space-template_desc-preproc_T1w': {'Description': 'The preprocessed T1w brain transformed to template space.', 'Template': 'T1w-template'}, 'from-T1w_to-template_mode-image_desc-linear_xfm': {'Description': 'Linear (affine) transform from T1w native space to T1w-template space.', 'Template': 'T1w-template'}, 'from-template_to-T1w_mode-image_desc-linear_xfm': {'Description': 'Linear (affine) transform from T1w-template space to T1w native space.', 'Template': 'T1w-template'}, 'from-T1w_to-template_mode-image_desc-nonlinear_xfm': {'Description': 'Nonlinear (warp field) transform from T1w native space to T1w-template space.', 'Template': 'T1w-template'}, 'from-template_to-T1w_mode-image_desc-nonlinear_xfm': {'Description': 'Nonlinear (warp field) transform from T1w-template space to T1w native space.', 'Template': 'T1w-template'}, 'from-T1w_to-template_mode-image_xfm': {'Description': 'Composite (affine + warp field) transform from T1w native space to T1w-template space.', 'Template': 'T1w-template'}, 'from-template_to-T1w_mode-image_xfm': {'Description': 'Composite (affine + warp field) transform from T1w-template space to T1w native space.', 'Template': 'T1w-template'}, 'from-longitudinal_to-template_mode-image_desc-linear_xfm': {'Description': 'Linear (affine) transform from longitudinal-template space to T1w-template space.', 'Template': 'T1w-template'}, 'from-template_to-longitudinal_mode-image_desc-linear_xfm': {'Description': 'Linear (affine) transform from T1w-template space to longitudinal-template space.', 'Template': 'T1w-template'}, 'from-longitudinal_to-template_mode-image_desc-nonlinear_xfm': {'Description': 'Nonlinear (warp field) transform from longitudinal-template space to T1w-template space.', 'Template': 'T1w-template'}, 'from-template_to-longitudinal_mode-image_desc-nonlinear_xfm': {'Description': 'Nonlinear (warp field) transform from T1w-template space to longitudinal-template space.', 'Template': 'T1w-template'}, 'from-longitudinal_to-template_mode-image_xfm': {'Description': 'Composite (affine + warp field) transform from longitudinal-template space to T1w-template space.', 'Template': 'T1w-template'}, 'from-template_to-longitudinal_mode-image_xfm': {'Description': 'Composite (affine + warp field) transform from T1w-template space to longitudinal-template space.', 'Template': 'T1w-template'}}
+230919-17:29:47,414 nipype.workflow INFO:
+	 Connecting register_FSL_anat_to_template...
+230919-17:29:47,415 nipype.workflow DEBUG:
+	 "inputs": [(['desc-preproc_T1w', 'space-longitudinal_desc-reorient_T1w'], ['desc-brain_T1w', 'space-longitudinal_desc-brain_T1w']), 'T1w-template', 'T1w-brain-template', 'FNIRT-T1w-template', 'FNIRT-T1w-brain-template', 'template-ref-mask']
+	 "outputs": ['space-template_desc-preproc_T1w', 'space-template_desc-head_T1w', 'space-template_desc-T1w_mask', 'space-template_desc-T1wT2w_biasfield', 'from-T1w_to-template_mode-image_desc-linear_xfm', 'from-template_to-T1w_mode-image_desc-linear_xfm', 'from-T1w_to-template_mode-image_xfm', 'from-T1w_to-template_mode-image_warp', 'from-longitudinal_to-template_mode-image_desc-linear_xfm', 'from-template_to-longitudinal_mode-image_desc-linear_xfm', 'from-longitudinal_to-template_mode-image_xfm']
+	"options": {'space-template_desc-preproc_T1w': {'Template': 'T1w-brain-template'}, 'space-template_desc-head_T1w': {'Template': 'T1w-template'}, 'space-template_desc-T1w_mask': {'Template': 'T1w-template'}, 'space-template_desc-T1wT2w_biasfield': {'Template': 'T1w-template'}, 'from-T1w_to-template_mode-image_desc-linear_xfm': {'Template': 'T1w-template'}, 'from-template_to-T1w_mode-image_desc-linear_xfm': {'Template': 'T1w-template'}, 'from-T1w_to-template_mode-image_xfm': {'Template': 'T1w-template'}, 'from-T1w_to-template_mode-image_warp': {'Template': 'T1w-template'}, 'from-longitudinal_to-template_mode-image_desc-linear_xfm': {'Template': 'T1w-template'}, 'from-template_to-longitudinal_mode-image_desc-linear_xfm': {'Template': 'T1w-template'}, 'from-longitudinal_to-template_mode-image_xfm': {'Template': 'T1w-template'}}
+230919-17:29:47,473 nipype.workflow INFO:
+	 Connecting overwrite_transform_anat_to_template...
+230919-17:29:47,473 nipype.workflow DEBUG:
+	 "inputs": [('desc-restore-brain_T1w', ['desc-preproc_T1w', 'space-longitudinal_desc-brain_T1w'], ['desc-restore_T1w', 'desc-preproc_T1w', 'desc-reorient_T1w', 'T1w'], ['desc-preproc_T1w', 'desc-reorient_T1w', 'T1w'], 'space-T1w_desc-brain_mask', 'T1w-template', 'from-T1w_to-template_mode-image_xfm', 'from-template_to-T1w_mode-image_xfm', 'space-template_desc-brain_T1w', 'space-template_desc-preproc_T1w')]
+	 "outputs": ['space-template_desc-preproc_T1w', 'space-template_desc-head_T1w', 'space-template_desc-T1w_mask', 'from-T1w_to-template_mode-image_xfm', 'from-template_to-T1w_mode-image_xfm']
+	"options": {'space-template_desc-preproc_T1w': {'Template': 'T1w-template'}, 'space-template_desc-head_T1w': {'Template': 'T1w-template'}, 'space-template_desc-T1w_mask': {'Template': 'T1w-template'}, 'from-T1w_to-template_mode-image_xfm': {'Template': 'T1w-template'}, 'from-template_to-T1w_mode-image_xfm': {'Template': 'T1w-template'}}
+230919-17:29:47,474 nipype.workflow INFO:
+	 Connecting transform_whole_head_T1w_to_T1template...
+230919-17:29:47,475 nipype.workflow DEBUG:
+	 "inputs": [('desc-head_T1w', 'from-T1w_to-template_mode-image_xfm', 'space-template_desc-head_T1w'), 'T1w-template']
+	 "outputs": ['space-template_desc-head_T1w']
+	"options": {'space-template_desc-head_T1w': {'Template': 'T1w-template'}}
+230919-17:29:47,496 nipype.workflow INFO:
+	 Connecting transform_T1mask_to_T1template...
+230919-17:29:47,497 nipype.workflow DEBUG:
+	 "inputs": [('space-T1w_desc-brain_mask', 'from-T1w_to-template_mode-image_xfm'), 'T1w-template']
+	 "outputs": ['space-template_desc-brain_mask']
+	"options": {'space-template_desc-brain_mask': {'Template': 'T1w-template'}}
+230919-17:29:47,517 nipype.workflow INFO:
+	 Connecting correct_restore_brain_intensity_abcd...
+230919-17:29:47,518 nipype.workflow DEBUG:
+	 "inputs": [('desc-preproc_T1w', 'desc-n4_T1w', 'space-T1w_desc-brain_mask', 'pipeline-fs_desc-fast_biasfield', 'from-T1w_to-ACPC_mode-image_desc-aff2rig_xfm', 'from-T1w_to-template_mode-image_xfm', 'desc-restore-brain_T1w')]
+	 "outputs": ['desc-restore-brain_T1w']
+	"options": ['desc-restore-brain_T1w']
+230919-17:29:47,519 nipype.workflow INFO:
+	 Connecting register_symmetric_ANTs_anat_to_template...
+230919-17:29:47,520 nipype.workflow DEBUG:
+	 "inputs": [(['desc-preproc_T1w', 'space-longitudinal_desc-brain_T1w'], ['space-T1w_desc-brain_mask', 'space-longitudinal_desc-brain_mask'], ['desc-head_T1w', 'desc-preproc_T1w', 'space-longitudinal_desc-reorient_T1w']), 'T1w-template-symmetric', 'T1w-brain-template-symmetric', 'dilated-symmetric-brain-mask', 'label-lesion_mask']
+	 "outputs": ['space-symtemplate_desc-preproc_T1w', 'from-T1w_to-symtemplate_mode-image_desc-linear_xfm', 'from-symtemplate_to-T1w_mode-image_desc-linear_xfm', 'from-T1w_to-symtemplate_mode-image_desc-nonlinear_xfm', 'from-symtemplate_to-T1w_mode-image_desc-nonlinear_xfm', 'from-T1w_to-symtemplate_mode-image_xfm', 'from-symtemplate_to-T1w_mode-image_xfm', 'from-longitudinal_to-symtemplate_mode-image_desc-linear_xfm', 'from-symtemplate_to-longitudinal_mode-image_desc-linear_xfm', 'from-longitudinal_to-symtemplate_mode-image_desc-nonlinear_xfm', 'from-symtemplate_to-longitudinal_mode-image_desc-nonlinear_xfm', 'from-longitudinal_to-symtemplate_mode-image_xfm', 'from-symtemplate_to-longitudinal_mode-image_xfm']
+	"options": {'space-symtemplate_desc-preproc_T1w': {'Template': 'T1w-brain-template-symmetric'}, 'from-T1w_to-symtemplate_mode-image_desc-linear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-symtemplate_to-T1w_mode-image_desc-linear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-T1w_to-symtemplate_mode-image_desc-nonlinear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-symtemplate_to-T1w_mode-image_desc-nonlinear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-T1w_to-symtemplate_mode-image_xfm': {'Template': 'T1w-template-symmetric'}, 'from-symtemplate_to-T1w_mode-image_xfm': {'Template': 'T1w-template-symmetric'}, 'from-longitudinal_to-symtemplate_mode-image_desc-linear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-symtemplate_to-longitudinal_mode-image_desc-linear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-longitudinal_to-symtemplate_mode-image_desc-nonlinear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-symtemplate_to-longitudinal_mode-image_desc-nonlinear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-longitudinal_to-symtemplate_mode-image_xfm': {'Template': 'T1w-template-symmetric'}, 'from-symtemplate_to-longitudinal_mode-image_xfm': {'Template': 'T1w-template-symmetric'}}
+230919-17:29:47,521 nipype.workflow INFO:
+	 Connecting register_symmetric_FSL_anat_to_template...
+230919-17:29:47,522 nipype.workflow DEBUG:
+	 "inputs": [(['desc-preproc_T1w', 'space-longitudinal_desc-reorient_T1w'], ['desc-brain_T1w', 'space-longitudinal_desc-brain_T1w']), 'T1w-template-symmetric', 'T1w-brain-template-symmetric', 'dilated-symmetric-brain-mask']
+	 "outputs": ['space-symtemplate_desc-preproc_T1w', 'from-T1w_to-symtemplate_mode-image_desc-linear_xfm', 'from-symtemplate_to-T1w_mode-image_desc-linear_xfm', 'from-T1w_to-symtemplate_mode-image_xfm', 'from-longitudinal_to-symtemplate_mode-image_desc-linear_xfm', 'from-symtemplate_to-longitudinal_mode-image_desc-linear_xfm', 'from-longitudinal_to-symtemplate_mode-image_xfm']
+	"options": {'space-symtemplate_desc-preproc_T1w': {'Template': 'T1w-brain-template-symmetric'}, 'from-T1w_to-symtemplate_mode-image_desc-linear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-symtemplate_to-T1w_mode-image_desc-linear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-T1w_to-symtemplate_mode-image_xfm': {'Template': 'T1w-template-symmetric'}, 'from-longitudinal_to-symtemplate_mode-image_desc-linear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-symtemplate_to-longitudinal_mode-image_desc-linear_xfm': {'Template': 'T1w-template-symmetric'}, 'from-longitudinal_to-symtemplate_mode-image_xfm': {'Template': 'T1w-template-symmetric'}}
+230919-17:29:47,579 nipype.workflow INFO:
+	 Connecting tissue_seg_fsl_fast...
+230919-17:29:47,580 nipype.workflow DEBUG:
+	 "inputs": [(['desc-brain_T1w', 'space-longitudinal_desc-brain_T1w'], ['space-T1w_desc-brain_mask', 'space-longitudinal_desc-brain_mask'], ['from-template_to-T1w_mode-image_desc-linear_xfm', 'from-template_to-longitudinal_mode-image_desc-linear_xfm']), 'CSF-path', 'GM-path', 'WM-path']
+	 "outputs": ['label-CSF_mask', 'label-GM_mask', 'label-WM_mask', 'label-CSF_desc-preproc_mask', 'label-GM_desc-preproc_mask', 'label-WM_desc-preproc_mask', 'label-CSF_probseg', 'label-GM_probseg', 'label-WM_probseg', 'label-CSF_pveseg', 'label-GM_pveseg', 'label-WM_pveseg', 'space-longitudinal_label-CSF_mask', 'space-longitudinal_label-GM_mask', 'space-longitudinal_label-WM_mask', 'space-longitudinal_label-CSF_desc-preproc_mask', 'space-longitudinal_label-GM_desc-preproc_mask', 'space-longitudinal_label-WM_desc-preproc_mask', 'space-longitudinal_label-CSF_probseg', 'space-longitudinal_label-GM_probseg', 'space-longitudinal_label-WM_probseg']
+	"options": ['label-CSF_mask', 'label-GM_mask', 'label-WM_mask', 'label-CSF_desc-preproc_mask', 'label-GM_desc-preproc_mask', 'label-WM_desc-preproc_mask', 'label-CSF_probseg', 'label-GM_probseg', 'label-WM_probseg', 'label-CSF_pveseg', 'label-GM_pveseg', 'label-WM_pveseg', 'space-longitudinal_label-CSF_mask', 'space-longitudinal_label-GM_mask', 'space-longitudinal_label-WM_mask', 'space-longitudinal_label-CSF_desc-preproc_mask', 'space-longitudinal_label-GM_desc-preproc_mask', 'space-longitudinal_label-WM_desc-preproc_mask', 'space-longitudinal_label-CSF_probseg', 'space-longitudinal_label-GM_probseg', 'space-longitudinal_label-WM_probseg']
+230919-17:29:47,580 nipype.workflow INFO:
+	 Connecting tissue_seg_ants_prior...
+230919-17:29:47,581 nipype.workflow DEBUG:
+	 "inputs": [('desc-brain_T1w', ['space-T1w_desc-brain_mask', 'space-T1w_desc-acpcbrain_mask'])]
+	 "outputs": ['label-CSF_mask', 'label-GM_mask', 'label-WM_mask']
+	"options": ['label-CSF_mask', 'label-GM_mask', 'label-WM_mask']
+230919-17:29:47,582 nipype.workflow INFO:
+	 Connecting tissue_seg_freesurfer...
+230919-17:29:47,583 nipype.workflow DEBUG:
+	 "inputs": ['freesurfer-subject-dir', 'pipeline-fs_raw-average', 'pipeline-fs_subcortical-seg']
+	 "outputs": ['pipeline-fs_hemi-L_desc-surface_curv', 'pipeline-fs_hemi-R_desc-surface_curv', 'pipeline-fs_hemi-L_desc-surfaceMesh_pial', 'pipeline-fs_hemi-R_desc-surfaceMesh_pial', 'pipeline-fs_hemi-L_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-R_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-L_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-R_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-L_desc-surfaceMap_sulc', 'pipeline-fs_hemi-R_desc-surfaceMap_sulc', 'pipeline-fs_hemi-L_desc-surfaceMap_thickness', 'pipeline-fs_hemi-R_desc-surfaceMap_thickness', 'pipeline-fs_hemi-L_desc-surfaceMap_volume', 'pipeline-fs_hemi-R_desc-surfaceMap_volume', 'pipeline-fs_hemi-L_desc-surfaceMesh_white', 'pipeline-fs_hemi-R_desc-surfaceMesh_white', 'label-CSF_mask', 'label-GM_mask', 'label-WM_mask']
+	"options": ['pipeline-fs_hemi-L_desc-surface_curv', 'pipeline-fs_hemi-R_desc-surface_curv', 'pipeline-fs_hemi-L_desc-surfaceMesh_pial', 'pipeline-fs_hemi-R_desc-surfaceMesh_pial', 'pipeline-fs_hemi-L_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-R_desc-surfaceMesh_smoothwm', 'pipeline-fs_hemi-L_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-R_desc-surfaceMesh_sphere', 'pipeline-fs_hemi-L_desc-surfaceMap_sulc', 'pipeline-fs_hemi-R_desc-surfaceMap_sulc', 'pipeline-fs_hemi-L_desc-surfaceMap_thickness', 'pipeline-fs_hemi-R_desc-surfaceMap_thickness', 'pipeline-fs_hemi-L_desc-surfaceMap_volume', 'pipeline-fs_hemi-R_desc-surfaceMap_volume', 'pipeline-fs_hemi-L_desc-surfaceMesh_white', 'pipeline-fs_hemi-R_desc-surfaceMesh_white', 'label-CSF_mask', 'label-GM_mask', 'label-WM_mask']
+230919-17:29:47,651 nipype.workflow INFO:
+	 Connecting tissue_seg_T1_template_based...
+230919-17:29:47,652 nipype.workflow DEBUG:
+	 "inputs": [('desc-brain_T1w', 'from-template_to-T1w_mode-image_desc-linear_xfm')]
+	 "outputs": ['label-CSF_mask', 'label-GM_mask', 'label-WM_mask']
+	"options": ['label-CSF_mask', 'label-GM_mask', 'label-WM_mask']
+230919-17:29:47,653 nipype.workflow INFO:
+	 Connecting warp_tissuemask_to_T1template...
+230919-17:29:47,653 nipype.workflow DEBUG:
+	 "inputs": [('label-CSF_mask', 'label-WM_mask', 'label-GM_mask', 'from-T1w_to-template_mode-image_xfm'), 'T1w-template']
+	 "outputs": ['space-template_label-CSF_mask', 'space-template_label-WM_mask', 'space-template_label-GM_mask']
+	"options": {'space-template_label-CSF_mask': {'Template': 'T1w-template'}, 'space-template_label-WM_mask': {'Template': 'T1w-template'}, 'space-template_label-GM_mask': {'Template': 'T1w-template'}}
+230919-17:29:47,704 nipype.workflow INFO:
+	 Connecting func_reorient...
+230919-17:29:47,705 nipype.workflow DEBUG:
+	 "inputs": ['bold']
+	 "outputs": ['desc-preproc_bold', 'desc-reorient_bold']
+	"options": ['desc-preproc_bold', 'desc-reorient_bold']
+230919-17:29:47,709 nipype.workflow INFO:
+	 Connecting func_scaling...
+230919-17:29:47,710 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold']
+	 "outputs": ['desc-preproc_bold']
+	"options": ['desc-preproc_bold']
+230919-17:29:47,711 nipype.workflow INFO:
+	 Connecting func_truncate...
+230919-17:29:47,712 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold']
+	 "outputs": ['desc-preproc_bold']
+	"options": {'desc-preproc_bold': {'Description': 'Truncated functional time-series BOLD data.'}}
+230919-17:29:47,723 nipype.workflow INFO:
+	 Connecting func_despike...
+230919-17:29:47,724 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold']
+	 "outputs": ['desc-preproc_bold']
+	"options": {'desc-preproc_bold': {'Description': 'De-spiked BOLD time-series via AFNI 3dDespike.'}}
+230919-17:29:47,725 nipype.workflow INFO:
+	 Connecting func_slice_time...
+230919-17:29:47,725 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold', 'TR', 'tpattern']
+	 "outputs": ['desc-preproc_bold', 'desc-stc_bold']
+	"options": {'desc-preproc_bold': {'Description': 'Slice-time corrected BOLD time-series via AFNI 3dTShift.'}, 'desc-stc_bold': {'Description': 'Slice-time corrected BOLD time-series via AFNI 3dTShift.'}}
+230919-17:29:47,737 nipype.workflow INFO:
+	 Connecting func_mean...
+230919-17:29:47,738 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold']
+	 "outputs": ['desc-mean_bold']
+	"options": ['desc-mean_bold']
+230919-17:29:47,746 nipype.workflow INFO:
+	 Connecting get_motion_ref...
+230919-17:29:47,747 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold', 'desc-reorient_bold']
+	 "outputs": ['motion-basefile']
+	"options": ['motion-basefile']
+230919-17:29:47,759 nipype.workflow INFO:
+	 Connecting motion_correction...
+230919-17:29:47,759 nipype.workflow DEBUG:
+	 "inputs": [('desc-preproc_bold', 'motion-basefile')]
+	 "outputs": ['desc-preproc_bold', 'desc-motion_bold', 'max-displacement', 'rels-displacement', 'filtered-movement-parameters', 'movement-parameters', 'filtered-coordinate-transformation', 'coordinate-transformation']
+	"options": {'desc-preproc_bold': {'Description': 'Motion-corrected BOLD time-series.'}, 'desc-motion_bold': {'Description': 'Motion-corrected BOLD time-series.'}, 'max-displacement': {}, 'rels-displacement': {}, 'filtered-movement-parameters': {'Description': 'UNFILTERED'}, 'movement-parameters': {'Description': "Each line contains for one timepoint a 6-DOF rigid transform parameters in the format defined by AFNI's 3dvolreg: [roll, pitch, yaw, superior displacement, left displacement, posterior displacement]. Rotation parameters are in degrees counterclockwise, and translation parameters are in millimeters."}, 'filtered-coordinate-transformation': {'Description': 'UNFILTERED'}, 'coordinate-transformation': {'Description': 'Each row contains for one timepoint the first 12 values of a 4x4 affine matrix'}}
+230919-17:29:47,788 nipype.workflow INFO:
+	 Connecting motion_estimate_filter...
+230919-17:29:47,789 nipype.workflow DEBUG:
+	 "inputs": [('desc-preproc_bold', 'space-bold_desc-brain_mask', 'max-displacement', 'rels-displacement', 'coordinate-transformation', 'movement-parameters'), 'TR']
+	 "outputs": ['filtered-coordinate-transformation', 'filtered-movement-parameters', 'motion-filter-info', 'motion-filter-plot']
+	"options": {'filtered-coordinate-transformation': {'Description': 'Affine matrix regenerated from filtered motion parameters. Note: the translation vector does not account for recentering inherent in rotation; this omission does not seem to affect framewise displacement calculation, for which this matrix is used.'}, 'filtered-movement-parameters': {'Description': 'Filtered movement parameters (3 rotation, 3 translation).'}, 'motion-filter-info': {}, 'motion-filter-plot': {}}
+230919-17:29:47,790 nipype.workflow INFO:
+	 Connecting bold_mask_afni...
+230919-17:29:47,791 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold']
+	 "outputs": ['space-bold_desc-brain_mask']
+	"options": {'space-bold_desc-brain_mask': {'Description': 'Binary brain mask of the BOLD functional time-series created by AFNI 3dAutomask.'}}
+230919-17:29:47,792 nipype.workflow INFO:
+	 Connecting bold_mask_fsl...
+230919-17:29:47,793 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold']
+	 "outputs": ['space-bold_desc-brain_mask']
+	"options": ['space-bold_desc-brain_mask']
+230919-17:29:47,794 nipype.workflow INFO:
+	 Connecting bold_mask_fsl_afni...
+230919-17:29:47,794 nipype.workflow DEBUG:
+	 "inputs": [('motion-basefile', 'desc-preproc_bold'), 'FSL-AFNI-bold-ref', 'FSL-AFNI-brain-mask', 'FSL-AFNI-brain-probseg']
+	 "outputs": ['space-bold_desc-brain_mask', 'desc-ref_bold']
+	"options": ['space-bold_desc-brain_mask', 'desc-ref_bold']
+230919-17:29:47,795 nipype.workflow INFO:
+	 Connecting bold_mask_anatomical_refined...
+230919-17:29:47,796 nipype.workflow DEBUG:
+	 "inputs": [('bold', 'desc-preproc_bold'), ('desc-brain_T1w', ['space-T1w_desc-brain_mask', 'space-T1w_desc-acpcbrain_mask'])]
+	 "outputs": ['space-bold_desc-brain_mask']
+	"options": ['space-bold_desc-brain_mask']
+230919-17:29:47,797 nipype.workflow INFO:
+	 Connecting bold_mask_anatomical_based...
+230919-17:29:47,798 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold', ('desc-brain_T1w', ['desc-preproc_T1w', 'desc-reorient_T1w', 'T1w'])]
+	 "outputs": ['space-bold_desc-brain_mask']
+	"options": ['space-bold_desc-brain_mask']
+230919-17:29:47,799 nipype.workflow INFO:
+	 Connecting bold_mask_anatomical_resampled...
+230919-17:29:47,800 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold', 'T1w-template-funcreg', 'space-template_desc-preproc_T1w', 'space-template_desc-T1w_mask']
+	 "outputs": ['space-template_res-bold_desc-brain_T1w', 'space-template_desc-bold_mask', 'space-bold_desc-brain_mask']
+	"options": ['space-template_res-bold_desc-brain_T1w', 'space-template_desc-bold_mask', 'space-bold_desc-brain_mask']
+230919-17:29:47,801 nipype.workflow INFO:
+	 Connecting bold_mask_ccs...
+230919-17:29:47,802 nipype.workflow DEBUG:
+	 "inputs": [['desc-motion_bold', 'desc-preproc_bold', 'bold'], 'desc-brain_T1w', ['desc-preproc_T1w', 'desc-reorient_T1w', 'T1w']]
+	 "outputs": ['space-bold_desc-brain_mask', 'desc-ROIbrain_bold']
+	"options": ['space-bold_desc-brain_mask', 'desc-ROIbrain_bold']
+230919-17:29:47,811 nipype.workflow INFO:
+	 Connecting bold_masking...
+230919-17:29:47,812 nipype.workflow DEBUG:
+	 "inputs": [('desc-preproc_bold', 'space-bold_desc-brain_mask')]
+	 "outputs": ['desc-preproc_bold', 'desc-brain_bold']
+	"options": {'desc-preproc_bold': {'Description': 'The skull-stripped BOLD time-series.', 'SkullStripped': True}, 'desc-brain_bold': {'Description': 'The skull-stripped BOLD time-series.', 'SkullStripped': True}}
+230919-17:29:47,830 nipype.workflow INFO:
+	 Connecting calc_motion_stats...
+230919-17:29:47,831 nipype.workflow DEBUG:
+	 "inputs": [('desc-preproc_bold', 'space-bold_desc-brain_mask', 'movement-parameters', 'max-displacement', 'rels-displacement', 'coordinate-transformation'), 'subject', 'scan']
+	 "outputs": ['framewise-displacement-power', 'framewise-displacement-jenkinson', 'dvars', 'power-params', 'motion-params']
+	"options": ['framewise-displacement-power', 'framewise-displacement-jenkinson', 'dvars', 'power-params', 'motion-params']
+230919-17:29:47,889 nipype.workflow INFO:
+	 Connecting func_normalize...
+230919-17:29:47,890 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold']
+	 "outputs": ['desc-preproc_bold']
+	"options": ['desc-preproc_bold']
+230919-17:29:47,899 nipype.workflow INFO:
+	 Connecting coregistration_prep_vol...
+230919-17:29:47,900 nipype.workflow DEBUG:
+	 "inputs": [('desc-brain_bold', ['desc-motion_bold', 'bold'], 'sbref')]
+	 "outputs": ['sbref']
+	"options": ['sbref']
+230919-17:29:47,900 nipype.workflow INFO:
+	 Connecting coregistration_prep_mean...
+230919-17:29:47,901 nipype.workflow DEBUG:
+	 "inputs": ['desc-mean_bold']
+	 "outputs": ['sbref']
+	"options": ['sbref']
+230919-17:29:47,902 nipype.workflow INFO:
+	 Connecting coregistration_prep_fmriprep...
+230919-17:29:47,903 nipype.workflow DEBUG:
+	 "inputs": ['desc-ref_bold']
+	 "outputs": ['sbref']
+	"options": ['sbref']
+230919-17:29:47,913 nipype.workflow INFO:
+	 Connecting distcor_phasediff_fsl_fugue...
+230919-17:29:47,914 nipype.workflow DEBUG:
+	 "inputs": ['phasediff', 'phase1', 'phase2', 'magnitude', 'magnitude1', 'magnitude2', 'deltaTE', 'effectiveEchoSpacing', 'ees-asym-ratio']
+	 "outputs": ['despiked-fieldmap', 'fieldmap-mask']
+	"options": ['despiked-fieldmap', 'fieldmap-mask']
+230919-17:29:47,928 nipype.workflow INFO:
+	 Connecting coregistration...
+230919-17:29:47,929 nipype.workflow DEBUG:
+	 "inputs": [('sbref', 'desc-motion_bold', 'space-bold_label-WM_mask', 'despiked-fieldmap', 'fieldmap-mask', 'effectiveEchoSpacing', 'pe-direction'), ('desc-preproc_T1w', 'desc-restore-brain_T1w', 'desc-preproc_T2w', 'desc-preproc_T2w', 'T2w', ['label-WM_probseg', 'label-WM_mask'], ['label-WM_pveseg', 'label-WM_mask'], 'desc-head_T1w', 'desc-head_T2w')]
+	 "outputs": ['space-T1w_sbref', 'from-bold_to-T1w_mode-image_desc-linear_xfm', 'from-bold_to-T1w_mode-image_desc-linear_warp']
+	"options": ['space-T1w_sbref', 'from-bold_to-T1w_mode-image_desc-linear_xfm', 'from-bold_to-T1w_mode-image_desc-linear_warp']
+230919-17:29:48,23 nipype.workflow INFO:
+	 Connecting register_ANTs_EPI_to_template...
+230919-17:29:48,24 nipype.workflow DEBUG:
+	 "inputs": [('sbref', 'space-bold_desc-brain_mask'), 'EPI-template', 'EPI-template-mask']
+	 "outputs": ['space-template_desc-preproc_bold', 'from-bold_to-EPItemplate_mode-image_desc-linear_xfm', 'from-EPItemplate_to-bold_mode-image_desc-linear_xfm', 'from-bold_to-EPItemplate_mode-image_desc-nonlinear_xfm', 'from-EPItemplate_to-bold_mode-image_desc-nonlinear_xfm', 'from-bold_to-EPItemplate_mode-image_xfm', 'from-EPItemplate_to-bold_mode-image_xfm']
+	"options": {'space-template_desc-preproc_bold': {'Template': 'EPI-template'}, 'from-bold_to-EPItemplate_mode-image_desc-linear_xfm': {'Template': 'EPI-template'}, 'from-EPItemplate_to-bold_mode-image_desc-linear_xfm': {'Template': 'EPI-template'}, 'from-bold_to-EPItemplate_mode-image_desc-nonlinear_xfm': {'Template': 'EPI-template'}, 'from-EPItemplate_to-bold_mode-image_desc-nonlinear_xfm': {'Template': 'EPI-template'}, 'from-bold_to-EPItemplate_mode-image_xfm': {'Template': 'EPI-template'}, 'from-EPItemplate_to-bold_mode-image_xfm': {'Template': 'EPI-template'}}
+230919-17:29:48,24 nipype.workflow INFO:
+	 Connecting register_FSL_EPI_to_template...
+230919-17:29:48,25 nipype.workflow DEBUG:
+	 "inputs": [('sbref', 'space-bold_desc-brain_mask'), 'EPI-template', 'EPI-template-mask']
+	 "outputs": ['space-template_desc-preproc_bold', 'from-bold_to-EPItemplate_mode-image_desc-linear_xfm', 'from-EPItemplate_to-bold_mode-image_desc-linear_xfm', 'from-bold_to-EPItemplate_mode-image_xfm']
+	"options": {'space-template_desc-preproc_bold': {'Template': 'EPI-template'}, 'from-bold_to-EPItemplate_mode-image_desc-linear_xfm': {'Template': 'EPI-template'}, 'from-EPItemplate_to-bold_mode-image_desc-linear_xfm': {'Template': 'EPI-template'}, 'from-bold_to-EPItemplate_mode-image_xfm': {'Template': 'EPI-template'}}
+230919-17:29:48,26 nipype.workflow INFO:
+	 Connecting create_func_to_T1template_xfm...
+230919-17:29:48,27 nipype.workflow DEBUG:
+	 "inputs": [('sbref', 'from-bold_to-T1w_mode-image_desc-linear_xfm', 'ants-blip-warp', 'fsl-blip-warp'), ('from-T1w_to-template_mode-image_xfm', 'from-template_to-T1w_mode-image_xfm', 'desc-brain_T1w'), 'T1w-brain-template-funcreg']
+	 "outputs": ['from-bold_to-template_mode-image_xfm', 'from-template_to-bold_mode-image_xfm']
+	"options": {'from-bold_to-template_mode-image_xfm': {'Template': 'T1w-brain-template-funcreg'}, 'from-template_to-bold_mode-image_xfm': {'Template': 'T1w-brain-template-funcreg'}}
+230919-17:29:48,78 nipype.workflow INFO:
+	 Connecting create_func_to_T1template_symmetric_xfm...
+230919-17:29:48,79 nipype.workflow DEBUG:
+	 "inputs": [('from-T1w_to-symtemplate_mode-image_xfm', 'from-symtemplate_to-T1w_mode-image_xfm', 'desc-brain_T1w'), ('sbref', 'from-bold_to-T1w_mode-image_desc-linear_xfm'), 'T1w-brain-template-symmetric-deriv']
+	 "outputs": ['from-bold_to-symtemplate_mode-image_xfm', 'from-symtemplate_to-bold_mode-image_xfm']
+	"options": {'from-bold_to-symtemplate_mode-image_xfm': {'Template': 'T1w-brain-template-symmetric-deriv'}, 'from-symtemplate_to-bold_mode-image_xfm': {'Template': 'T1w-brain-template-symmetric-deriv'}}
+230919-17:29:48,130 nipype.workflow INFO:
+	 Connecting ICA_AROMA_ANTsreg...
+230919-17:29:48,131 nipype.workflow DEBUG:
+	 "inputs": [('desc-preproc_bold', 'sbref', 'from-bold_to-template_mode-image_xfm', 'from-template_to-bold_mode-image_xfm'), 'T1w-brain-template-funcreg']
+	 "outputs": ['desc-preproc_bold', 'desc-cleaned_bold']
+	"options": ['desc-preproc_bold', 'desc-cleaned_bold']
+230919-17:29:48,132 nipype.workflow INFO:
+	 Connecting ICA_AROMA_FSLreg...
+230919-17:29:48,133 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold', 'from-bold_to-T1w_mode-image_desc-linear_xfm', 'from-T1w_to-template_mode-image_xfm']
+	 "outputs": ['desc-preproc_bold', 'desc-cleaned_bold']
+	"options": ['desc-preproc_bold', 'desc-cleaned_bold']
+230919-17:29:48,134 nipype.workflow INFO:
+	 Connecting ICA_AROMA_ANTsEPIreg...
+230919-17:29:48,135 nipype.workflow DEBUG:
+	 "inputs": [('desc-preproc_bold', 'sbref', 'from-bold_to-EPItemplate_mode-image_xfm', 'from-EPItemplate_to-bold_mode-image_xfm'), 'EPI-template']
+	 "outputs": ['desc-preproc_bold', 'desc-cleaned_bold']
+	"options": ['desc-preproc_bold', 'desc-cleaned_bold']
+230919-17:29:48,136 nipype.workflow INFO:
+	 Connecting ICA_AROMA_FSLEPIreg...
+230919-17:29:48,137 nipype.workflow DEBUG:
+	 "inputs": [['desc-brain_bold', 'desc-motion_bold', 'desc-preproc_bold', 'bold'], 'from-bold_to-EPItemplate_mode-image_xfm']
+	 "outputs": ['desc-preproc_bold', 'desc-cleaned_bold']
+	"options": ['desc-preproc_bold', 'desc-cleaned_bold']
+230919-17:29:48,138 nipype.workflow INFO:
+	 Connecting erode_mask_T1w...
+230919-17:29:48,139 nipype.workflow DEBUG:
+	 "inputs": [('space-T1w_desc-brain_mask', ['label-CSF_desc-preproc_mask', 'label-CSF_mask'])]
+	 "outputs": ['space-T1w_desc-eroded_mask']
+	"options": ['space-T1w_desc-eroded_mask']
+230919-17:29:48,140 nipype.workflow INFO:
+	 Connecting erode_mask_CSF...
+230919-17:29:48,141 nipype.workflow DEBUG:
+	 "inputs": [(['label-CSF_desc-preproc_mask', 'label-CSF_mask'], 'space-T1w_desc-brain_mask')]
+	 "outputs": ['label-CSF_desc-eroded_mask']
+	"options": ['label-CSF_desc-eroded_mask']
+230919-17:29:48,142 nipype.workflow INFO:
+	 Connecting erode_mask_GM...
+230919-17:29:48,143 nipype.workflow DEBUG:
+	 "inputs": [['label-GM_desc-preproc', 'label-GM_mask']]
+	 "outputs": ['label-GM_desc-eroded_mask']
+	"options": ['label-GM_desc-eroded_mask']
+230919-17:29:48,144 nipype.workflow INFO:
+	 Connecting erode_mask_WM...
+230919-17:29:48,145 nipype.workflow DEBUG:
+	 "inputs": [(['label-WM_desc-preproc_mask', 'label-WM_mask'], 'space-T1w_desc-brain_mask')]
+	 "outputs": ['label-WM_desc-eroded_mask']
+	"options": ['label-WM_desc-eroded_mask']
+230919-17:29:48,146 nipype.workflow INFO:
+	 Connecting erode_mask_bold...
+230919-17:29:48,147 nipype.workflow DEBUG:
+	 "inputs": [('space-bold_desc-brain_mask', ['space-bold_label-CSF_desc-preproc_mask', 'space-bold_label-CSF_mask'])]
+	 "outputs": ['space-bold_desc-eroded_mask']
+	"options": ['space-bold_desc-eroded_mask']
+230919-17:29:48,148 nipype.workflow INFO:
+	 Connecting erode_mask_boldCSF...
+230919-17:29:48,149 nipype.workflow DEBUG:
+	 "inputs": [(['space-bold_label-CSF_desc-preproc_mask', 'space-bold_label-CSF_mask'], 'space-bold_desc-brain_mask')]
+	 "outputs": ['space-bold_label-CSF_desc-eroded_mask']
+	"options": ['space-bold_label-CSF_desc-eroded_mask']
+230919-17:29:48,150 nipype.workflow INFO:
+	 Connecting erode_mask_boldGM...
+230919-17:29:48,152 nipype.workflow DEBUG:
+	 "inputs": [['space-bold_label-GM_desc-preproc', 'space-bold_label-GM_mask']]
+	 "outputs": ['space-bold_label-GM_desc-eroded_mask']
+	"options": ['space-bold_label-GM_desc-eroded_mask']
+230919-17:29:48,153 nipype.workflow INFO:
+	 Connecting erode_mask_boldWM...
+230919-17:29:48,154 nipype.workflow DEBUG:
+	 "inputs": [(['space-bold_label-WM_desc-preproc_mask', 'space-bold_label-WM_mask'], 'space-bold_desc-brain_mask')]
+	 "outputs": ['space-bold_label-WM_desc-eroded_mask']
+	"options": ['space-bold_label-WM_desc-eroded_mask']
+230919-17:29:48,155 nipype.workflow INFO:
+	 Connecting nuisance_regressors_generation...
+230919-17:29:48,156 nipype.workflow DEBUG:
+	 "inputs": ['lateral-ventricles-mask', 'TR', ('space-bold_desc-brain_mask', 'from-bold_to-T1w_mode-image_desc-linear_xfm', 'movement-parameters', 'framewise-displacement-jenkinson', 'framewise-displacement-power', 'dvars', 'desc-brain_T1w', ['space-T1w_desc-eroded_mask', 'space-T1w_desc-brain_mask'], ['label-CSF_desc-eroded_mask', 'label-CSF_desc-preproc_mask', 'label-CSF_mask'], ['label-WM_desc-eroded_mask', 'label-WM_desc-preproc_mask', 'label-WM_mask'], ['label-GM_desc-eroded_mask', 'label-GM_desc-preproc_mask', 'label-GM_mask'], 'from-template_to-T1w_mode-image_desc-linear_xfm', 'from-T1w_to-template_mode-image_desc-linear_xfm', ['desc-preproc_bold', 'bold'])]
+	 "outputs": ['regressors', 'censor-indices']
+	"options": ['regressors', 'censor-indices']
+230919-17:29:48,480 nipype.workflow INFO:
+	 Connecting nuisance_regression_native...
+230919-17:29:48,481 nipype.workflow DEBUG:
+	 "inputs": ['TR', ('regressors', 'space-bold_desc-brain_mask', 'framewise-displacement-jenkinson', 'framewise-displacement-power', 'dvars', ['desc-preproc_bold', 'bold'])]
+	 "outputs": ['desc-preproc_bold', 'desc-cleaned_bold', 'desc-denoisedNofilt_bold', 'regressors']
+	"options": {'desc-preproc_bold': {'Description': 'Preprocessed BOLD image that was nuisance-regressed in native space'}, 'desc-cleaned_bold': {'Description': 'Preprocessed BOLD image that was nuisance-regressed in native space'}, 'desc-denoisedNofilt_bold': {'Description': 'Preprocessed BOLD image that was nuisance-regressed in native space, but without frequency filtering.'}, 'regressors': {'Description': 'Regressors that were applied in native space'}}
+230919-17:29:48,781 nipype.workflow INFO:
+	 Connecting apply_phasediff_to_timeseries_separately...
+230919-17:29:48,782 nipype.workflow DEBUG:
+	 "inputs": [('sbref', 'desc-preproc_bold', 'desc-stc_bold', 'bold', 'from-bold_to-T1w_mode-image_desc-linear_xfm'), 'despiked-fieldmap', 'pe-direction', 'effectiveEchoSpacing']
+	 "outputs": ['sbref', 'desc-preproc_bold', 'desc-stc_bold', 'bold']
+	"options": ['sbref', 'desc-preproc_bold', 'desc-stc_bold', 'bold']
+230919-17:29:48,782 nipype.workflow INFO:
+	 Connecting apply_blip_to_timeseries_separately...
+230919-17:29:48,783 nipype.workflow DEBUG:
+	 "inputs": [('sbref', 'desc-preproc_bold', 'desc-stc_bold', 'bold', 'from-bold_to-template_mode-image_xfm', 'ants-blip-warp', 'fsl-blip-warp')]
+	 "outputs": ['desc-preproc_bold', 'desc-stc_bold', 'bold']
+	"options": ['desc-preproc_bold', 'desc-stc_bold', 'bold']
+230919-17:29:48,784 nipype.workflow INFO:
+	 Connecting transform_timeseries_to_T1template...
+230919-17:29:48,785 nipype.workflow DEBUG:
+	 "inputs": [('desc-preproc_bold', 'from-bold_to-template_mode-image_xfm'), 'T1w-brain-template-funcreg']
+	 "outputs": ['space-template_desc-preproc_bold']
+	"options": {'space-template_desc-preproc_bold': {'Template': 'T1w-brain-template-funcreg'}}
+230919-17:29:48,786 nipype.workflow INFO:
+	 Connecting transform_timeseries_to_T1template_dcan_nhp...
+230919-17:29:48,787 nipype.workflow DEBUG:
+	 "inputs": [(['desc-reorient_bold', 'bold'], 'coordinate-transformation', 'from-T1w_to-template_mode-image_warp', 'from-bold_to-T1w_mode-image_desc-linear_warp', 'T1w-template', 'space-template_desc-head_T1w', 'space-template_desc-T1w_mask', 'space-template_desc-T1wT2w_biasfield')]
+	 "outputs": ['space-template_desc-preproc_bold', 'space-template_desc-bold_mask']
+	"options": {'space-template_desc-preproc_bold': {'Template': 'T1w-template'}, 'space-template_desc-bold_mask': {'Template': 'T1w-template'}}
+230919-17:29:48,788 nipype.workflow INFO:
+	 Connecting transform_timeseries_to_T1template_abcd...
+230919-17:29:48,789 nipype.workflow DEBUG:
+	 "inputs": ['from-T1w_to-template_mode-image_xfm', 'from-bold_to-T1w_mode-image_desc-linear_xfm', 'from-bold_to-template_mode-image_xfm', 'fsl-blip-warp', 'desc-preproc_T1w', 'space-template_res-bold_desc-brain_T1w', 'space-template_desc-bold_mask', 'T1w-brain-template-funcreg', ('bold', 'motion-basefile', 'coordinate-transformation', 'bold')]
+	 "outputs": ['space-template_desc-preproc_bold', 'space-template_desc-scout_bold', 'space-template_desc-head_bold']
+	"options": {'space-template_desc-preproc_bold': {'Template': 'T1w-brain-template-funcreg'}, 'space-template_desc-scout_bold': {'Template': 'T1w-brain-template-funcreg'}, 'space-template_desc-head_bold': {'Template': 'T1w-brain-template-funcreg'}}
+230919-17:29:48,790 nipype.workflow INFO:
+	 Connecting single_step_resample_stc_timeseries_to_T1template...
+230919-17:29:48,790 nipype.workflow DEBUG:
+	 "inputs": [('sbref', 'desc-stc_bold', 'motion-basefile', 'space-bold_desc-brain_mask', 'coordinate-transformation', 'from-T1w_to-template_mode-image_xfm', 'from-bold_to-T1w_mode-image_desc-linear_xfm', 'from-bold_to-template_mode-image_xfm', 'ants-blip-warp', 'fsl-blip-warp', 'T1w', 'desc-preproc_T1w', 'T1w-brain-template-funcreg', 'T1w-brain-template-deriv')]
+	 "outputs": ['space-template_desc-preproc_bold', 'space-template_desc-brain_bold', 'space-template_desc-bold_mask', 'space-template_desc-head_bold', 'space-template_res-derivative_desc-preproc_bold', 'space-template_res-derivative_desc-bold_mask']
+	"options": {'space-template_desc-preproc_bold': {'Template': 'T1w-brain-template-funcreg'}, 'space-template_desc-brain_bold': {'Template': 'T1w-brain-template-funcreg'}, 'space-template_desc-bold_mask': {'Template': 'T1w-brain-template-funcreg'}, 'space-template_desc-head_bold': {'Template': 'T1w-brain-template-funcreg'}, 'space-template_res-derivative_desc-preproc_bold': {'Template': 'T1w-brain-template-deriv'}, 'space-template_res-derivative_desc-bold_mask': {'Template': 'T1w-brain-template-deriv'}}
+230919-17:29:49,321 nipype.workflow INFO:
+	 Connecting transform_sbref_to_T1template...
+230919-17:29:49,322 nipype.workflow DEBUG:
+	 "inputs": [('sbref', 'from-bold_to-template_mode-image_xfm'), 'T1w-brain-template-funcreg']
+	 "outputs": ['space-template_sbref']
+	"options": {'space-template_sbref': {'Description': 'Single-volume sbref of the BOLD time-series transformed to template space.', 'Template': 'T1w-brain-template-funcreg'}}
+230919-17:29:49,396 nipype.workflow INFO:
+	 Connecting transform_bold_mask_to_T1template...
+230919-17:29:49,397 nipype.workflow DEBUG:
+	 "inputs": [('space-bold_desc-brain_mask', 'from-bold_to-template_mode-image_xfm'), 'T1w-brain-template-funcreg']
+	 "outputs": ['space-template_desc-bold_mask']
+	"options": {'space-template_desc-bold_mask': {'Template': 'T1w-brain-template-funcreg'}}
+230919-17:29:49,420 nipype.workflow INFO:
+	 Connecting transform_deriv_mask_to_T1template...
+230919-17:29:49,420 nipype.workflow DEBUG:
+	 "inputs": [('space-bold_desc-brain_mask', 'from-bold_to-template_mode-image_xfm'), 'T1w-brain-template-deriv']
+	 "outputs": ['space-template_res-derivative_desc-bold_mask']
+	"options": {'space-template_res-derivative_desc-bold_mask': {'Template': 'T1w-brain-template-deriv'}}
+230919-17:29:49,443 nipype.workflow INFO:
+	 Connecting func_despike_template...
+230919-17:29:49,444 nipype.workflow DEBUG:
+	 "inputs": [('space-template_desc-preproc_bold', 'space-template_res-derivative_desc-preproc_bold'), 'T1w-template-funcreg', 'T1w-template-deriv']
+	 "outputs": ['space-template_desc-preproc_bold', 'space-template_res-derivative_desc-preproc_bold']
+	"options": {'space-template_desc-preproc_bold': {'Description': 'De-spiked BOLD time-series via AFNI 3dDespike.', 'Template': 'T1w-template-funcreg'}, 'space-template_res-derivative_desc-preproc_bold': {'Description': 'De-spiked BOLD time-series via AFNI 3dDespike.', 'Template': 'T1w-template-deriv'}}
+230919-17:29:49,445 nipype.workflow INFO:
+	 Connecting transform_bold_mask_to_EPItemplate...
+230919-17:29:49,446 nipype.workflow DEBUG:
+	 "inputs": [('space-bold_desc-brain_mask', 'from-bold_to-EPItemplate_mode-image_xfm'), 'EPI-template']
+	 "outputs": ['space-template_desc-bold_mask']
+	"options": {'space-template_desc-bold_mask': {'Template': 'EPI-template'}}
+230919-17:29:49,447 nipype.workflow INFO:
+	 Connecting transform_deriv_mask_to_EPItemplate...
+230919-17:29:49,448 nipype.workflow DEBUG:
+	 "inputs": [('space-bold_desc-brain_mask', 'from-bold_to-EPItemplate_mode-image_xfm'), 'EPI-template']
+	 "outputs": ['space-template_res-derivative_desc-bold_mask']
+	"options": {'space-template_res-derivative_desc-bold_mask': {'Template': 'EPI-template'}}
+230919-17:29:49,449 nipype.workflow INFO:
+	 Connecting surface_postproc...
+230919-17:29:49,450 nipype.workflow DEBUG:
+	 "inputs": [('freesurfer-subject-dir', ['pipeline-fs_desc-restore_T1w', 'desc-preproc_T1w', 'desc-reorient_T1w', 'T1w', 'space-longitudinal_desc-reorient_T1w'], ['space-template_desc-head_T1w', 'space-template_desc-brain_T1w', 'space-template_desc-T1w_mask'], ['from-T1w_to-template_mode-image_xfm', 'from-T1w_to-template_mode-image_desc-linear_xfm'], ['from-template_to-T1w_mode-image_xfm', 'from-template_to-T1w_mode-image_desc-linear_xfm'], ['space-template_desc-brain_bold', 'space-template_desc-preproc_bold'], ['space-template_desc-scout_bold', 'space-template_desc-cleaned_bold', 'space-template_desc-brain_bold', 'space-template_desc-motion_bold', 'space-template_bold'])]
+	 "outputs": ['atlas-DesikanKilliany_space-fsLR_den-32k_dlabel', 'atlas-Destrieux_space-fsLR_den-32k_dlabel', 'atlas-DesikanKilliany_space-fsLR_den-164k_dlabel', 'atlas-Destrieux_space-fsLR_den-164k_dlabel', 'space-fsLR_den-32k_bold-dtseries']
+	"options": ['atlas-DesikanKilliany_space-fsLR_den-32k_dlabel', 'atlas-Destrieux_space-fsLR_den-32k_dlabel', 'atlas-DesikanKilliany_space-fsLR_den-164k_dlabel', 'atlas-Destrieux_space-fsLR_den-164k_dlabel', 'space-fsLR_den-32k_bold-dtseries']
+230919-17:29:49,451 nipype.workflow INFO:
+	 Connecting timeseries_extraction_AVG...
+230919-17:29:49,452 nipype.workflow DEBUG:
+	 "inputs": ['space-template_desc-preproc_bold', 'space-template_desc-bold_mask']
+	 "outputs": ['space-template_desc-Mean_timeseries', 'space-template_desc-ndmg_correlations', 'atlas_name', 'space-template_desc-PearsonAfni_correlations', 'space-template_desc-PartialAfni_correlations', 'space-template_desc-PearsonNilearn_correlations', 'space-template_desc-PartialNilearn_correlations']
+	"options": ['space-template_desc-Mean_timeseries', 'space-template_desc-ndmg_correlations', 'atlas_name', 'space-template_desc-PearsonAfni_correlations', 'space-template_desc-PartialAfni_correlations', 'space-template_desc-PearsonNilearn_correlations', 'space-template_desc-PartialNilearn_correlations']
+230919-17:29:49,671 nipype.workflow INFO:
+	 Connecting spatial_regression...
+230919-17:29:49,672 nipype.workflow DEBUG:
+	 "inputs": ['space-template_desc-preproc_bold', 'space-template_desc-bold_mask']
+	 "outputs": ['desc-SpatReg_timeseries', 'atlas_name']
+	"options": ['desc-SpatReg_timeseries', 'atlas_name']
+230919-17:29:49,881 nipype.workflow INFO:
+	 Connecting alff_falff...
+230919-17:29:49,882 nipype.workflow DEBUG:
+	 "inputs": [(['desc-denoisedNofilt_bold', 'desc-preproc_bold'], 'space-bold_desc-brain_mask')]
+	 "outputs": ['alff', 'falff']
+	"options": ['alff', 'falff']
+230919-17:29:50,40 nipype.workflow INFO:
+	 Connecting ReHo...
+230919-17:29:50,41 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_bold', 'space-bold_desc-brain_mask']
+	 "outputs": ['reho']
+	"options": ['reho']
+230919-17:29:50,172 nipype.workflow INFO:
+	 Connecting smooth_func_vmhc...
+230919-17:29:50,173 nipype.workflow DEBUG:
+	 "inputs": [['desc-cleaned_bold', 'desc-brain_bold', 'desc-preproc_bold', 'bold'], 'space-bold_desc-brain_mask']
+	 "outputs": ['desc-sm_bold', 'fwhm']
+	"options": ['desc-sm_bold', 'fwhm']
+230919-17:29:50,343 nipype.workflow INFO:
+	 Connecting transform_timeseries_to_sym_template...
+230919-17:29:50,344 nipype.workflow DEBUG:
+	 "inputs": [['desc-cleaned-sm_bold', 'desc-brain-sm_bold', 'desc-preproc-sm_bold', 'desc-sm_bold'], 'from-bold_to-symtemplate_mode-image_xfm', 'T1w-brain-template-symmetric']
+	 "outputs": ['space-symtemplate_desc-sm_bold']
+	"options": ['space-symtemplate_desc-sm_bold']
+230919-17:29:50,398 nipype.workflow INFO:
+	 Connecting vmhc...
+230919-17:29:50,398 nipype.workflow DEBUG:
+	 "inputs": [['space-symtemplate_desc-cleaned-sm_bold', 'space-symtemplate_desc-brain-sm_bold', 'space-symtemplate_desc-preproc-sm_bold', 'space-symtemplate_desc-sm_bold']]
+	 "outputs": ['vmhc']
+	"options": ['vmhc']
+230919-17:29:50,443 nipype.workflow INFO:
+	 Connecting network_centrality...
+230919-17:29:50,444 nipype.workflow DEBUG:
+	 "inputs": [('space-template_desc-preproc_bold', 'T1w-brain-template-funcreg'), 'template-specification-file']
+	 "outputs": ['space-template_dcw', 'space-template_dcb', 'space-template_ecw', 'space-template_ecb', 'space-template_lfcdw', 'space-template_lfcdb']
+	"options": {'space-template_dcw': {'Template': 'T1w-brain-template-funcreg'}, 'space-template_dcb': {'Template': 'T1w-brain-template-funcreg'}, 'space-template_ecw': {'Template': 'T1w-brain-template-funcreg'}, 'space-template_ecb': {'Template': 'T1w-brain-template-funcreg'}, 'space-template_lfcdw': {'Template': 'T1w-brain-template-funcreg'}, 'space-template_lfcdb': {'Template': 'T1w-brain-template-funcreg'}}
+230919-17:29:50,677 nipype.workflow INFO:
+	 Connecting qc_snr_plot...
+230919-17:29:50,678 nipype.workflow DEBUG:
+	 "inputs": [('desc-preproc_bold', 'space-bold_desc-brain_mask'), 'from-bold_to-T1w_mode-image_desc-linear_xfm', 'desc-preproc_T1w', 'space-T1w_sbref']
+	 "outputs": ['desc-boldSnrAxial_quality', 'desc-boldSnrSagittal_quality', 'desc-boldSnrHist_quality', 'desc-boldSnr_quality']
+	"options": ['desc-boldSnrAxial_quality', 'desc-boldSnrSagittal_quality', 'desc-boldSnrHist_quality', 'desc-boldSnr_quality']
+230919-17:29:50,997 nipype.workflow INFO:
+	 Connecting qc_coregistration...
+230919-17:29:50,998 nipype.workflow DEBUG:
+	 "inputs": [('desc-preproc_T1w', 'space-T1w_sbref')]
+	 "outputs": ['space-T1w_desc-boldAxial_quality', 'space-T1w_desc-boldSagittal_quality']
+	"options": ['space-T1w_desc-boldAxial_quality', 'space-T1w_desc-boldSagittal_quality']
+230919-17:29:51,21 nipype.workflow INFO:
+	 Connecting qc_motion_plot...
+230919-17:29:51,22 nipype.workflow DEBUG:
+	 "inputs": ['movement-parameters']
+	 "outputs": ['desc-movementParametersTrans_quality', 'desc-movementParametersRot_quality']
+	"options": ['desc-movementParametersTrans_quality', 'desc-movementParametersRot_quality']
+230919-17:29:51,35 nipype.workflow INFO:
+	 Connecting qc_fd_plot...
+230919-17:29:51,36 nipype.workflow DEBUG:
+	 "inputs": ['framewise-displacement-jenkinson']
+	 "outputs": ['desc-framewiseDisplacementJenkinsonPlot_quality']
+	"options": ['desc-framewiseDisplacementJenkinsonPlot_quality']
+230919-17:29:51,55 nipype.workflow INFO:
+	 Connecting qc_brain_extraction...
+230919-17:29:51,56 nipype.workflow DEBUG:
+	 "inputs": ['desc-preproc_T1w', 'desc-head_T1w']
+	 "outputs": ['desc-brain_desc-T1wAxial_quality', 'desc-brain_desc-T1wSagittal_quality']
+	"options": ['desc-brain_desc-T1wAxial_quality', 'desc-brain_desc-T1wSagittal_quality']
+230919-17:29:51,69 nipype.workflow INFO:
+	 Connecting qc_brain_extraction...
+230919-17:29:51,70 nipype.workflow DEBUG:
+	 "inputs": ['space-template_desc-preproc_T1w', 'T1w-brain-template']
+	 "outputs": ['space-template_desc-brain_desc-T1wAxial_quality', 'space-template_desc-brain_desc-T1wSagittal_quality']
+	"options": ['space-template_desc-brain_desc-T1wAxial_quality', 'space-template_desc-brain_desc-T1wSagittal_quality']
+230919-17:29:51,84 nipype.workflow INFO:
+	 Connecting qc_segmentation...
+230919-17:29:51,85 nipype.workflow DEBUG:
+	 "inputs": [('desc-preproc_T1w', ['label-CSF_desc-preproc_mask', 'label-CSF_mask'], ['label-WM_desc-preproc_mask', 'label-WM_mask'], ['label-GM_desc-preproc_mask', 'label-GM_mask'])]
+	 "outputs": ['desc-dsegAxial_quality', 'desc-dsegSagittal_quality']
+	"options": ['desc-dsegAxial_quality', 'desc-dsegSagittal_quality']
+230919-17:29:51,127 nipype.workflow INFO:
+	 Connecting qc_carpet_plot...
+230919-17:29:51,128 nipype.workflow DEBUG:
+	 "inputs": [('space-template_desc-preproc_bold', 'space-template_sbref'), 'GM-path', 'WM-path', 'CSF-path']
+	 "outputs": ['space-template_desc-preprocBoldCarpet_quality']
+	"options": ['space-template_desc-preprocBoldCarpet_quality']
+230919-17:29:51,424 nipype.workflow INFO:
+	 Connecting qc_bold_registration...
+230919-17:29:51,425 nipype.workflow DEBUG:
+	 "inputs": ['space-template_sbref', 'T1w-brain-template-funcreg']
+	 "outputs": ['space-template_desc-boldAxial_quality', 'space-template_desc-boldSagittal_quality']
+	"options": ['space-template_desc-boldAxial_quality', 'space-template_desc-boldSagittal_quality']
+230919-17:30:24,984 nipype.workflow INFO:
+	 Workflow cpac_sub-NDARAD481FXF_ses-1 settings: ['check', 'execution', 'logging', 'monitoring']
+230919-17:30:50,435 nipype.workflow INFO:
+	 Running serially.
+230919-17:30:50,439 nipype.workflow INFO:
+	 [Node] Setting-up "cpac_sub-NDARAD481FXF_ses-1.resampled_T1w-brain-template" in "/outputs/working/pipeline_default-5mm/cpac_sub-NDARAD481FXF_ses-1/resampled_T1w-brain-template".
+230919-17:30:50,450 nipype.workflow INFO:
+	 [Node] Executing "resampled_T1w-brain-template" <CPAC.utils.interfaces.function.function.Function>
+230919-17:30:50,728 nipype.workflow INFO:
+	 [Node] Finished "resampled_T1w-brain-template", elapsed time 0.001294s.
+230919-17:30:50,728 nipype.workflow WARNING:
+	 Storing result file without outputs
+230919-17:30:50,731 nipype.workflow WARNING:
+	 [Node] Error on "cpac_sub-NDARAD481FXF_ses-1.resampled_T1w-brain-template" (/outputs/working/pipeline_default-5mm/cpac_sub-NDARAD481FXF_ses-1/resampled_T1w-brain-template)
+230919-17:30:50,734 nipype.workflow ERROR:
+	 Node resampled_T1w-brain-template failed to run on host r017.ib.bridges2.psc.edu.
+230919-17:30:50,735 nipype.workflow ERROR:
+	 Saving crash info to /outputs/log/crash-20230919-173050-c-pac_user-resampled_T1w-brain-template-4041df55-cc6c-4002-8548-ff6ba6a0fc6b.txt
+Traceback (most recent call last):
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/plugins/linear.py", line 47, in run
+    node.run(updatehash=updatehash)
+  File "/code/CPAC/pipeline/nipype_pipeline_engine/engine.py", line 428, in run
+    return super().run(updatehash)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/engine/nodes.py", line 527, in run
+    result = self._run_interface(execute=True)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/engine/nodes.py", line 645, in _run_interface
+    return self._run_command(execute)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/engine/nodes.py", line 771, in _run_command
+    raise NodeExecutionError(msg)
+nipype.pipeline.engine.nodes.NodeExecutionError: Exception raised while executing Node resampled_T1w-brain-template.
+
+Traceback:
+	Traceback (most recent call last):
+	  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/interfaces/base/core.py", line 397, in run
+	    runtime = self._run_interface(runtime)
+	  File "/code/CPAC/utils/interfaces/function/function.py", line 216, in _run_interface
+	    out = function_handle(**args)
+	  File "/code/CPAC/utils/datasource.py", line 1014, in resolve_resolution
+	    resample.inputs.in_file = local_path
+	  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/interfaces/base/traits_extension.py", line 330, in validate
+	    value = super(File, self).validate(objekt, name, value, return_pathlike=True)
+	  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/interfaces/base/traits_extension.py", line 135, in validate
+	    self.error(objekt, name, str(value))
+	  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/traits/base_trait_handler.py", line 74, in error
+	    raise TraitError(
+	traits.trait_errors.TraitError: The 'in_file' trait of a ResampleInputSpec instance must be a pathlike object or string representing an existing file, but a value of '/reg-data/templates/MNI152_T1_5mm_brain.nii.gz' <class 'str'> was specified.
+
+
+230919-17:30:50,739 nipype.workflow INFO:
+	 ***********************************
+230919-17:30:50,740 nipype.workflow ERROR:
+	 could not run node: cpac_sub-NDARAD481FXF_ses-1.resampled_T1w-brain-template
+230919-17:30:50,740 nipype.workflow INFO:
+	 crashfile: /outputs/log/crash-20230919-173050-c-pac_user-resampled_T1w-brain-template-4041df55-cc6c-4002-8548-ff6ba6a0fc6b.txt
+230919-17:30:50,742 nipype.workflow INFO:
+	 ***********************************
+230919-17:30:50,862 nipype.workflow INFO:
+	 
+
+Error of subject workflow cpac_sub-NDARAD481FXF_ses-1
+
+CPAC run error:
+
+    Pipeline configuration: default-5mm
+    Subject workflow: cpac_sub-NDARAD481FXF_ses-1
+    Elapsed run time (minutes): 1.0898379365603128
+    Timing information saved in /outputs/log/cpac_individual_timing_default-5mm.csv
+    System time of start:      2023-09-19 17:29:54
+    Missing expected outputs:
+anat:
+- sub-NDARAD481FXF*_ses-1*_desc-brain*_T1w*
+- sub-NDARAD481FXF*_ses-1*_desc-brain*_mask*
+- sub-NDARAD481FXF*_ses-1*_desc-dsegAxial*_quality*
+- sub-NDARAD481FXF*_ses-1*_desc-dsegSagittal*_quality*
+- sub-NDARAD481FXF*_ses-1*_desc-head*_T1w*
+- sub-NDARAD481FXF*_ses-1*_desc-preproc*_T1w*
+- sub-NDARAD481FXF*_ses-1*_desc-reorient*_T1w*
+- sub-NDARAD481FXF*_ses-1*_from-T1w*_to-template*_mode-image*_desc-linear*_xfm*
+- sub-NDARAD481FXF*_ses-1*_from-T1w*_to-template*_mode-image*_desc-nonlinear*_xfm*
+- sub-NDARAD481FXF*_ses-1*_from-T1w*_to-template*_mode-image*_xfm*
+- sub-NDARAD481FXF*_ses-1*_from-template*_to-T1w*_mode-image*_desc-linear*_xfm*
+- sub-NDARAD481FXF*_ses-1*_from-template*_to-T1w*_mode-image*_desc-nonlinear*_xfm*
+- sub-NDARAD481FXF*_ses-1*_from-template*_to-T1w*_mode-image*_xfm*
+- sub-NDARAD481FXF*_ses-1*_label-CSF*_desc-preproc*_mask*
+- sub-NDARAD481FXF*_ses-1*_label-CSF*_mask*
+- sub-NDARAD481FXF*_ses-1*_label-CSF*_probseg*
+- sub-NDARAD481FXF*_ses-1*_label-GM*_desc-preproc*_mask*
+- sub-NDARAD481FXF*_ses-1*_label-GM*_mask*
+- sub-NDARAD481FXF*_ses-1*_label-GM*_probseg*
+- sub-NDARAD481FXF*_ses-1*_label-WM*_desc-preproc*_mask*
+- sub-NDARAD481FXF*_ses-1*_label-WM*_mask*
+- sub-NDARAD481FXF*_ses-1*_label-WM*_probseg*
+- sub-NDARAD481FXF*_ses-1*_space-template*_desc-brain*_mask*
+- sub-NDARAD481FXF*_ses-1*_space-template*_desc-head*_T1w*
+- sub-NDARAD481FXF*_ses-1*_space-template*_desc-preproc*_T1w*
+- sub-NDARAD481FXF*_ses-1*_space-template*_label-CSF*_mask*
+- sub-NDARAD481FXF*_ses-1*_space-template*_label-GM*_mask*
+- sub-NDARAD481FXF*_ses-1*_space-template*_label-WM*_mask*
+func:
+- sub-NDARAD481FXF*_ses-1*_desc-FDJenkinson*_motion*
+- sub-NDARAD481FXF*_ses-1*_desc-FDPower*_motion*
+- sub-NDARAD481FXF*_ses-1*_desc-brain*_bold*
+- sub-NDARAD481FXF*_ses-1*_desc-brain*_mask*
+- sub-NDARAD481FXF*_ses-1*_desc-dvars*_motion*
+- sub-NDARAD481FXF*_ses-1*_desc-filteredMovementParameters*_motion*
+- sub-NDARAD481FXF*_ses-1*_desc-framewiseDisplacementJenkinsonPlot*_quality*
+- sub-NDARAD481FXF*_ses-1*_desc-maxDisplacement*_motion*
+- sub-NDARAD481FXF*_ses-1*_desc-mean*_bold*
+- sub-NDARAD481FXF*_ses-1*_desc-motion*_bold*
+- sub-NDARAD481FXF*_ses-1*_desc-motionParams*_motion*
+- sub-NDARAD481FXF*_ses-1*_desc-movementParameters*_motion*
+- sub-NDARAD481FXF*_ses-1*_desc-movementParametersRot*_quality*
+- sub-NDARAD481FXF*_ses-1*_desc-movementParametersTrans*_quality*
+- sub-NDARAD481FXF*_ses-1*_desc-powerParams*_motion*
+- sub-NDARAD481FXF*_ses-1*_from-bold*_to-T1w*_mode-image*_desc-linear*_xfm*
+- sub-NDARAD481FXF*_ses-1*_from-bold*_to-template*_mode-image*_xfm*
+- sub-NDARAD481FXF*_ses-1*_from-template*_to-bold*_mode-image*_xfm*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-SpatReg*_timeseries*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-boldSnr*_quality*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-boldSnrAxial*_quality*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-boldSnrHist*_quality*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-boldSnrSagittal*_quality*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-preproc*_bold*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-sm*_bold*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-smZstd*_alff*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-smZstd*_falff*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-smZstd*_reho*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-zstd*_alff*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-zstd*_falff*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_desc-zstd*_reho*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_regressors*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_sbref*
+- sub-NDARAD481FXF*_ses-1*_reg-default*_vmhc*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-SpatReg*_timeseries*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-boldSnr*_quality*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-boldSnrAxial*_quality*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-boldSnrHist*_quality*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-boldSnrSagittal*_quality*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-preproc*_bold*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-sm*_bold*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-smZstd*_alff*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-smZstd*_falff*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-smZstd*_reho*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-zstd*_alff*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-zstd*_falff*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_desc-zstd*_reho*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_regressors*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_sbref*
+- sub-NDARAD481FXF*_ses-1*_reg-defaultNoGSR*_vmhc*
+- sub-NDARAD481FXF*_ses-1*_space-T1w*_sbref*
+- sub-NDARAD481FXF*_ses-1*_space-template*_desc-bold*_mask*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-Mean*_timeseries*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-PartialNilearn*_correlations*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-PearsonNilearn*_correlations*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-ndmg*_correlations*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-preproc*_bold*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-sm*_bold*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-smZstd*_alff*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-smZstd*_dcb*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-smZstd*_dcw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-smZstd*_ecw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-smZstd*_falff*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-smZstd*_lfcdb*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-smZstd*_lfcdw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-smZstd*_reho*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-zstd*_alff*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-zstd*_dcb*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-zstd*_dcw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-zstd*_ecw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-zstd*_falff*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-zstd*_lfcdb*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-zstd*_lfcdw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_desc-zstd*_reho*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-default*_sbref*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-Mean*_timeseries*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-PartialNilearn*_correlations*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-PearsonNilearn*_correlations*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-ndmg*_correlations*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-preproc*_bold*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-sm*_bold*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-smZstd*_alff*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-smZstd*_dcb*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-smZstd*_dcw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-smZstd*_ecw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-smZstd*_falff*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-smZstd*_lfcdb*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-smZstd*_lfcdw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-smZstd*_reho*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-zstd*_alff*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-zstd*_dcb*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-zstd*_dcw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-zstd*_ecw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-zstd*_falff*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-zstd*_lfcdb*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-zstd*_lfcdw*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_desc-zstd*_reho*
+- sub-NDARAD481FXF*_ses-1*_space-template*_reg-defaultNoGSR*_sbref*
+- sub-NDARAD481FXF*_ses-1*_space-template*_res-5mm*_desc-bold*_mask*
+
+Missing outputs have been logged in /outputs/log/pipeline_default-5mm/sub-NDARAD481FXF_ses-1/sub-NDARAD481FXF_ses-1_missingOutputs.yml
+┌──────────────────────────────────────────────────────┐
+│Tip: Look for "crash-*.txt" files in the log directory│
+│for more information. Usually the chronological first │
+│crash file is the most informative.                   │
+└──────────────────────────────────────────────────────┘
+
