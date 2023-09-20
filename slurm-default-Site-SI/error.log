@@ -1,2 +1,76 @@
-/var/spool/slurm/d/job19181303/slurm_script: line 12: syntax error near unexpected token `<<<'
-/var/spool/slurm/d/job19181303/slurm_script: line 12: `singularity run     --cleanenv     -B /ocean/projects/med220004p/cmind     -B /ocean/projects/med220004p/cmind/DATA/reg_5mm_pack/data/Site-SI:/data <<<<<<< HEAD'
+Traceback (most recent call last):
+  File "/code/CPAC/pipeline/cpac_pipeline.py", line 575, in run_workflow
+    workflow_result = workflow.run(plugin=plugin, plugin_args=plugin_args)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/engine/workflows.py", line 638, in run
+    runner.run(execgraph, updatehash=updatehash, config=self.config)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/plugins/base.py", line 178, in run
+    self._clean_queue(jobid, graph, result=result)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/plugins/base.py", line 256, in _clean_queue
+    raise RuntimeError("".join(result["traceback"]))
+RuntimeError: Traceback (most recent call last):
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/plugins/multiproc.py", line 67, in run_node
+    result["result"] = node.run(updatehash=updatehash)
+  File "/code/CPAC/pipeline/nipype_pipeline_engine/engine.py", line 428, in run
+    return super().run(updatehash)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/engine/nodes.py", line 527, in run
+    result = self._run_interface(execute=True)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/engine/nodes.py", line 645, in _run_interface
+    return self._run_command(execute)
+  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/pipeline/engine/nodes.py", line 771, in _run_command
+    raise NodeExecutionError(msg)
+nipype.pipeline.engine.nodes.NodeExecutionError: Exception raised while executing Node diff_distcor_calc_delta_ses-1.
+
+Traceback:
+	Traceback (most recent call last):
+	  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/utils/functions.py", line 34, in create_function_from_source
+	    exec(function_source, ns)
+	  File "<string>", line 2, in <module>
+	NameError: name 'TUPLE' is not defined
+
+	The above exception was the direct cause of the following exception:
+
+	Traceback (most recent call last):
+	  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/interfaces/base/core.py", line 397, in run
+	    runtime = self._run_interface(runtime)
+	  File "/code/CPAC/utils/interfaces/function/function.py", line 206, in _run_interface
+	    function_handle = create_function_from_source(self.inputs.function_str,
+	  File "/usr/share/fsl/6.0/lib/python3.10/site-packages/nipype/utils/functions.py", line 44, in create_function_from_source
+	    raise RuntimeError(msg) from e
+	RuntimeError: Error executing function
+	def calc_delta_te_and_asym_ratio(effective_echo_spacing: float,
+	                                 echo_times: list) -> TUPLE[float, float]:
+	    """Calcluate ``deltaTE`` and ``ees_asym_ratio`` from given metadata
+
+	    Parameters
+	    ----------
+	    effective_echo_spacing : float
+	        EffectiveEchoSpacing from sidecar JSON
+
+	    echo_times : list
+
+	    Returns
+	    -------
+	    deltaTE : float
+
+	    ees_asym_ratio : float
+	    """
+	    if not isinstance(effective_echo_spacing, float):
+	        raise LookupError('C-PAC could not find `EffectiveEchoSpacing` in '
+	                          'either fmap or func sidecar JSON, but that field '
+	                          'is required for PhaseDiff distortion correction.')
+
+	    # convert into milliseconds if necessary
+	    # these values will/should never be more than 10ms
+	    if ((echo_times[0] * 1000) < 10) and ((echo_times[1] * 1000) < 10):
+	        echo_times[0] = echo_times[0] * 1000
+	        echo_times[1] = echo_times[1] * 1000
+
+	    deltaTE = abs(echo_times[0] - echo_times[1])
+	    ees_asym_ratio = (effective_echo_spacing / deltaTE)
+	    return deltaTE, ees_asym_ratio
+
+	Functions in connection strings have to be standalone. They cannot be declared either interactively or inside another function or inline in the connect string. Any imports should be done inside the function.
+
+
+/code/CPAC/utils/monitoring/draw_gantt_chart.py:105: Warning: 'Event logged twice or events started at exact same time!'
+  warn(str(KeyError(err_msg)), category=Warning)
