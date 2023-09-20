@@ -1,0 +1,2 @@
+/var/spool/slurm/d/job19181307/slurm_script: line 12: syntax error near unexpected token `<<<'
+/var/spool/slurm/d/job19181307/slurm_script: line 12: `singularity run     --cleanenv     -B /ocean/projects/med220004p/cmind     -B /ocean/projects/med220004p/cmind/DATA/reg_5mm_pack/data/HNU_1:/data <<<<<<< HEAD'
