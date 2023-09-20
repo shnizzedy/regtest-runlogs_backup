@@ -1,0 +1,126 @@
+/code/CPAC/nuisance/bandpass.py:82: ComplexWarning: Casting complex values to real discards the imaginary part
+  Y_bp[:, j] = ideal_bandpass(Yc[:, j], sample_period, bandpass_freqs)
+/code/CPAC/nuisance/bandpass.py:82: ComplexWarning: Casting complex values to real discards the imaginary part
+  Y_bp[:, j] = ideal_bandpass(Yc[:, j], sample_period, bandpass_freqs)
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_271/_scan_movieTP/split_warp_ts_to_T1template_271/bandpassed_demeaned_filtered_0.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_271/_scan_movieTP/split_warp_ts_to_T1template_271/bandpassed_demeaned_filtered_1.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_271/_scan_movieTP/split_warp_ts_to_T1template_271/bandpassed_demeaned_filtered_2.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_271/_scan_movieTP/split_warp_ts_to_T1template_271/bandpassed_demeaned_filtered_3.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_271/_scan_movieTP/split_warp_ts_to_T1template_271/bandpassed_demeaned_filtered_4.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_271/_scan_movieTP/split_warp_ts_to_T1template_271/bandpassed_demeaned_filtered_5.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_271/_scan_movieTP/split_warp_ts_to_T1template_271/bandpassed_demeaned_filtered_6.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_271/_scan_movieTP/split_warp_ts_to_T1template_271/bandpassed_demeaned_filtered_7.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_271/_scan_movieTP/split_warp_ts_to_T1template_271/bandpassed_demeaned_filtered_8.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_271/_scan_movieTP/split_warp_ts_to_T1template_271/bandpassed_demeaned_filtered_9.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_274/_scan_movieTP/split_warp_ts_to_T1template_274/bandpassed_demeaned_filtered_0.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_274/_scan_movieTP/split_warp_ts_to_T1template_274/bandpassed_demeaned_filtered_1.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_274/_scan_movieTP/split_warp_ts_to_T1template_274/bandpassed_demeaned_filtered_2.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_274/_scan_movieTP/split_warp_ts_to_T1template_274/bandpassed_demeaned_filtered_3.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_274/_scan_movieTP/split_warp_ts_to_T1template_274/bandpassed_demeaned_filtered_4.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_274/_scan_movieTP/split_warp_ts_to_T1template_274/bandpassed_demeaned_filtered_5.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_274/_scan_movieTP/split_warp_ts_to_T1template_274/bandpassed_demeaned_filtered_6.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_274/_scan_movieTP/split_warp_ts_to_T1template_274/bandpassed_demeaned_filtered_7.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_274/_scan_movieTP/split_warp_ts_to_T1template_274/bandpassed_demeaned_filtered_8.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_T1template_274/_scan_movieTP/split_warp_ts_to_T1template_274/bandpassed_demeaned_filtered_9.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_381/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_381/bandpassed_demeaned_filtered_maths_0.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_381/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_381/bandpassed_demeaned_filtered_maths_1.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_381/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_381/bandpassed_demeaned_filtered_maths_2.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_381/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_381/bandpassed_demeaned_filtered_maths_3.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_381/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_381/bandpassed_demeaned_filtered_maths_4.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_381/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_381/bandpassed_demeaned_filtered_maths_5.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_381/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_381/bandpassed_demeaned_filtered_maths_6.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_381/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_381/bandpassed_demeaned_filtered_maths_7.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_381/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_381/bandpassed_demeaned_filtered_maths_8.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_381/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_381/bandpassed_demeaned_filtered_maths_9.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_384/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_384/bandpassed_demeaned_filtered_maths_0.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_384/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_384/bandpassed_demeaned_filtered_maths_1.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_384/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_384/bandpassed_demeaned_filtered_maths_2.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_384/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_384/bandpassed_demeaned_filtered_maths_3.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_384/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_384/bandpassed_demeaned_filtered_maths_4.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_384/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_384/bandpassed_demeaned_filtered_maths_5.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_384/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_384/bandpassed_demeaned_filtered_maths_6.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_384/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_384/bandpassed_demeaned_filtered_maths_7.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_384/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_384/bandpassed_demeaned_filtered_maths_8.nii.gz
+++ 3dcalc: AFNI version=AFNI_23.1.10 (Jul 28 2023) [64-bit]
+++ Authored by: A cast of thousands
+++ Output dataset /outputs/working/pipeline_default-5mm/cpac_sub-NDARAB348EWR_ses-1/warp_ts_to_sym_template_384/_scan_movieTP/_fwhm_4/split_warp_ts_to_sym_template_384/bandpassed_demeaned_filtered_maths_9.nii.gz
+/code/CPAC/utils/monitoring/draw_gantt_chart.py:105: Warning: 'Event logged twice or events started at exact same time!'
+  warn(str(KeyError(err_msg)), category=Warning)
